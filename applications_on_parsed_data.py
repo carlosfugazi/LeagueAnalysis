@@ -3,7 +3,7 @@ execfile('league_table_parsing.py')
 import matplotlib.font_manager as fm
 fontname  = './fonts/Bradbury-Oblique.ttf'
 fontname2  = './fonts/NeoBulletin Italic.ttf' 
-prop_font = fm.FontProperties(fname=fontname2)
+prop_font = fm.FontProperties(fname=fontname2,size=20.)
 
 
 # From git hub repo, initialization stuff

@@ -105,21 +105,23 @@ for i in range(0,Matchdays):
 	avg_diffs_by_md.append(sum_diffs/len(all_diffs))
 
 plot(range(1,Matchdays+1),avg_diffs_by_md,'ro-',mec='r',label='Average since 2009',linewidth=3.0 )
-make_no_frame_legend(loc=0,numpoints=1)
-xlabel("Matchday",size=25,style='italic')
+make_no_frame_legend(loc=0,numpoints=1,prop=prop_font)
+xlabel("Matchday",size=25,fontproperties=prop_font)
 ylabel("Points behind leader",size=25,fontproperties=prop_font)
 ax = gca()
 ax.set_title('@arsfutbolistica',size=30,color='blue',fontproperties=prop_font)
 # tight_layout()
 ylim([0-.1,25])
-xticks( range(5,35+5,5) )
+xticks( range(5,35+5,5),[str(elem) for elem in range(5,35+5,5) ], fontproperties=prop_font, size=25. )
+yticks( range(0,25+5,5),[str(elem) for elem in range(0,25+5,5) ], fontproperties=prop_font, size=25. )
+
 take_off_right_and_top_axis_lines_after()	
 # ax = gca()
 ax.yaxis.grid()
-# tight_layout()
+tight_layout()
 
-plot_team_logo('Arsenal',[0.5,0.0,0.5,0.5],kwargs=dict(alpha=0.15,origin='upper'))
-plot_my_logo([0.0,0.5,0.5,0.5],kwargs=dict(alpha=0.15,origin='upper'))#kwargs=dict(alpha=0.15,origin='upper'))
+plot_team_logo('Arsenal',[0.5,0.0,0.5,0.5],kwargs=dict(alpha=0.15,origin='lower'))
+plot_my_logo([0.0,0.5,0.5,0.5],kwargs=dict(alpha=0.15,origin='lower'))#kwargs=dict(alpha=0.15,origin='upper'))
 
 
 if ( savefigs == True ):
