@@ -19,7 +19,7 @@ prop_font = fm.FontProperties(fname=fontname2,size=20.)
 # http://www.worldfootball.net/alle_spiele/fra-ligue-1/
 # http://www.worldfootball.net/alle_spiele/bundesliga/
 
-
+o
 # League dict keys
 # 	dict_['League Name'] = LEAGUENAME
 # 	dict_['Country'] = COUNTRY
