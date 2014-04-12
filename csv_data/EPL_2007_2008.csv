@@ -1,0 +1,382 @@
+English Premier League,England,2007-2008
+Matchday,Home Team,Away Team,Goals Home,Goals Away,Points Home,Points Away
+1,Arsenal,Fulham,2,1,3,0
+1,Aston Villa,Liverpool,1,2,0,3
+1,Bolton Wanderers,Newcastle United,1,3,0,3
+1,Chelsea,Birmingham City,3,2,3,0
+1,Derby County,Portsmouth,2,2,1,1
+1,Everton,Wigan Athletic,2,1,3,0
+1,Manchester United,FC Reading,0,0,1,1
+1,Middlesbrough,Blackburn Rovers,1,2,0,3
+1,Sunderland,Tottenham Hotspur,1,0,3,0
+1,West Ham United,Manchester City,0,2,0,3
+2,Birmingham City,Sunderland,2,2,1,1
+2,Portsmouth,Manchester United,1,1,1,1
+2,FC Reading,Chelsea,1,2,0,3
+2,Tottenham Hotspur,Everton,1,3,0,3
+2,Wigan Athletic,Middlesbrough,1,0,3,0
+2,Blackburn Rovers,Aston Villa,0,4,0,3
+2,Fulham,Bolton Wanderers,2,1,3,0
+2,Liverpool,West Ham United,4,0,3,0
+2,Manchester City,Derby County,1,0,3,0
+2,Newcastle United,Arsenal,1,1,1,1
+3,Birmingham City,West Ham United,0,1,0,3
+3,Blackburn Rovers,Arsenal,1,1,1,1
+3,Fulham,Middlesbrough,1,2,0,3
+3,Liverpool,Chelsea,1,1,1,1
+3,Manchester City,Manchester United,1,0,3,0
+3,Newcastle United,Aston Villa,0,0,1,1
+3,Portsmouth,Bolton Wanderers,3,1,3,0
+3,FC Reading,Everton,1,0,3,0
+3,Tottenham Hotspur,Derby County,4,0,3,0
+3,Wigan Athletic,Sunderland,3,0,3,0
+4,Arsenal,Manchester City,1,0,3,0
+4,Aston Villa,Fulham,2,1,3,0
+4,Bolton Wanderers,FC Reading,3,0,3,0
+4,Chelsea,Portsmouth,1,0,3,0
+4,Derby County,Birmingham City,1,2,0,3
+4,Everton,Blackburn Rovers,1,1,1,1
+4,Manchester United,Tottenham Hotspur,1,0,3,0
+4,Middlesbrough,Newcastle United,2,2,1,1
+4,Sunderland,Liverpool,0,2,0,3
+4,West Ham United,Wigan Athletic,1,1,1,1
+5,Arsenal,Portsmouth,3,1,3,0
+5,Aston Villa,Chelsea,2,0,3,0
+5,Blackburn Rovers,Manchester City,1,0,3,0
+5,Bolton Wanderers,Everton,1,2,0,3
+5,Fulham,Tottenham Hotspur,3,3,1,1
+5,Liverpool,Derby County,6,0,3,0
+5,Manchester United,Sunderland,1,0,3,0
+5,Middlesbrough,Birmingham City,2,0,3,0
+5,Newcastle United,Wigan Athletic,1,0,3,0
+5,FC Reading,West Ham United,0,3,0,3
+6,Birmingham City,Bolton Wanderers,1,0,3,0
+6,Chelsea,Blackburn Rovers,0,0,1,1
+6,Derby County,Newcastle United,1,0,3,0
+6,Everton,Manchester United,0,1,0,3
+6,Manchester City,Aston Villa,1,0,3,0
+6,Portsmouth,Liverpool,0,0,1,1
+6,Sunderland,FC Reading,2,1,3,0
+6,Tottenham Hotspur,Arsenal,1,3,0,3
+6,West Ham United,Middlesbrough,3,0,3,0
+6,Wigan Athletic,Fulham,1,1,1,1
+7,Arsenal,Derby County,5,0,3,0
+7,Aston Villa,Everton,2,0,3,0
+7,Blackburn Rovers,Portsmouth,0,1,0,3
+7,Bolton Wanderers,Tottenham Hotspur,1,1,1,1
+7,Fulham,Manchester City,3,3,1,1
+7,Liverpool,Birmingham City,0,0,1,1
+7,Manchester United,Chelsea,2,0,3,0
+7,Middlesbrough,Sunderland,2,2,1,1
+7,Newcastle United,West Ham United,3,1,3,0
+7,FC Reading,Wigan Athletic,2,1,3,0
+8,Birmingham City,Manchester United,0,1,0,3
+8,Chelsea,Fulham,0,0,1,1
+8,Derby County,Bolton Wanderers,1,1,1,1
+8,Everton,Newcastle United,3,1,3,0
+8,Manchester City,Middlesbrough,3,1,3,0
+8,Portsmouth,FC Reading,7,4,3,0
+8,Sunderland,Blackburn Rovers,1,2,0,3
+8,Tottenham Hotspur,Aston Villa,4,4,1,1
+8,West Ham United,Arsenal,0,1,0,3
+8,Wigan Athletic,Liverpool,0,1,0,3
+9,Arsenal,Sunderland,3,2,3,0
+9,Aston Villa,West Ham United,1,0,3,0
+9,Blackburn Rovers,Birmingham City,2,1,3,0
+9,Bolton Wanderers,Chelsea,0,1,0,3
+9,Fulham,Portsmouth,0,2,0,3
+9,Liverpool,Tottenham Hotspur,2,2,1,1
+9,Manchester United,Wigan Athletic,4,0,3,0
+9,Middlesbrough,Everton,0,2,0,3
+9,Newcastle United,Manchester City,0,2,0,3
+9,FC Reading,Derby County,1,0,3,0
+10,Arsenal,Bolton Wanderers,2,0,3,0
+10,Aston Villa,Manchester United,1,4,0,3
+10,Blackburn Rovers,FC Reading,4,2,3,0
+10,Everton,Liverpool,1,2,0,3
+10,Fulham,Derby County,0,0,1,1
+10,Manchester City,Birmingham City,1,0,3,0
+10,Middlesbrough,Chelsea,0,2,0,3
+10,Newcastle United,Tottenham Hotspur,3,1,3,0
+10,West Ham United,Sunderland,3,1,3,0
+10,Wigan Athletic,Portsmouth,0,2,0,3
+11,Birmingham City,Wigan Athletic,3,2,3,0
+11,Bolton Wanderers,Aston Villa,1,1,1,1
+11,Chelsea,Manchester City,6,0,3,0
+11,Derby County,Everton,0,2,0,3
+11,Liverpool,Arsenal,1,1,1,1
+11,Manchester United,Middlesbrough,4,1,3,0
+11,Portsmouth,West Ham United,0,0,1,1
+11,FC Reading,Newcastle United,2,1,3,0
+11,Sunderland,Fulham,1,1,1,1
+11,Tottenham Hotspur,Blackburn Rovers,1,2,0,3
+12,Arsenal,Manchester United,2,2,1,1
+12,Aston Villa,Derby County,2,0,3,0
+12,Blackburn Rovers,Liverpool,0,0,1,1
+12,Everton,Birmingham City,3,1,3,0
+12,Fulham,FC Reading,3,1,3,0
+12,Manchester City,Sunderland,1,0,3,0
+12,Middlesbrough,Tottenham Hotspur,1,1,1,1
+12,Newcastle United,Portsmouth,1,4,0,3
+12,West Ham United,Bolton Wanderers,1,1,1,1
+12,Wigan Athletic,Chelsea,0,2,0,3
+13,Birmingham City,Aston Villa,1,2,0,3
+13,Bolton Wanderers,Middlesbrough,0,0,1,1
+13,Chelsea,Everton,1,1,1,1
+13,Derby County,West Ham United,0,5,0,3
+13,Liverpool,Fulham,2,0,3,0
+13,Manchester United,Blackburn Rovers,2,0,3,0
+13,Portsmouth,Manchester City,0,0,1,1
+13,FC Reading,Arsenal,1,3,0,3
+13,Sunderland,Newcastle United,1,1,1,1
+13,Tottenham Hotspur,Wigan Athletic,4,0,3,0
+14,Arsenal,Wigan Athletic,2,0,3,0
+14,Birmingham City,Portsmouth,0,2,0,3
+14,Bolton Wanderers,Manchester United,1,0,3,0
+14,Derby County,Chelsea,0,2,0,3
+14,Everton,Sunderland,7,1,3,0
+14,Fulham,Blackburn Rovers,2,2,1,1
+14,Manchester City,FC Reading,2,1,3,0
+14,Middlesbrough,Aston Villa,0,3,0,3
+14,Newcastle United,Liverpool,0,3,0,3
+14,West Ham United,Tottenham Hotspur,1,1,1,1
+15,Aston Villa,Arsenal,1,2,0,3
+15,Blackburn Rovers,Newcastle United,3,1,3,0
+15,Chelsea,West Ham United,1,0,3,0
+15,Liverpool,Bolton Wanderers,4,0,3,0
+15,Manchester United,Fulham,2,0,3,0
+15,Portsmouth,Everton,0,0,1,1
+15,FC Reading,Middlesbrough,1,1,1,1
+15,Sunderland,Derby County,1,0,3,0
+15,Tottenham Hotspur,Birmingham City,2,3,0,3
+15,Wigan Athletic,Manchester City,1,1,1,1
+16,Aston Villa,Portsmouth,1,3,0,3
+16,Blackburn Rovers,West Ham United,0,1,0,3
+16,Bolton Wanderers,Wigan Athletic,4,1,3,0
+16,Chelsea,Sunderland,2,0,3,0
+16,Everton,Fulham,3,0,3,0
+16,Manchester United,Derby County,4,1,3,0
+16,Middlesbrough,Arsenal,2,1,3,0
+16,Newcastle United,Birmingham City,2,1,3,0
+16,FC Reading,Liverpool,3,1,3,0
+16,Tottenham Hotspur,Manchester City,2,1,3,0
+17,Arsenal,Chelsea,1,0,3,0
+17,Birmingham City,FC Reading,1,1,1,1
+17,Derby County,Middlesbrough,0,1,0,3
+17,Fulham,Newcastle United,0,1,0,3
+17,Liverpool,Manchester United,0,1,0,3
+17,Manchester City,Bolton Wanderers,4,2,3,0
+17,Portsmouth,Tottenham Hotspur,0,1,0,3
+17,Sunderland,Aston Villa,1,1,1,1
+17,West Ham United,Everton,0,2,0,3
+17,Wigan Athletic,Blackburn Rovers,5,3,3,0
+18,Arsenal,Tottenham Hotspur,2,1,3,0
+18,Aston Villa,Manchester City,1,1,1,1
+18,Blackburn Rovers,Chelsea,0,1,0,3
+18,Bolton Wanderers,Birmingham City,3,0,3,0
+18,Fulham,Wigan Athletic,1,1,1,1
+18,Liverpool,Portsmouth,4,1,3,0
+18,Manchester United,Everton,2,1,3,0
+18,Middlesbrough,West Ham United,1,2,0,3
+18,Newcastle United,Derby County,2,2,1,1
+18,FC Reading,Sunderland,2,1,3,0
+19,Birmingham City,Middlesbrough,3,0,3,0
+19,Chelsea,Aston Villa,4,4,1,1
+19,Derby County,Liverpool,1,2,0,3
+19,Everton,Bolton Wanderers,2,0,3,0
+19,Manchester City,Blackburn Rovers,2,2,1,1
+19,Portsmouth,Arsenal,0,0,1,1
+19,Sunderland,Manchester United,0,4,0,3
+19,Tottenham Hotspur,Fulham,5,1,3,0
+19,West Ham United,FC Reading,1,1,1,1
+19,Wigan Athletic,Newcastle United,1,0,3,0
+20,Birmingham City,Fulham,1,1,1,1
+20,Chelsea,Newcastle United,2,1,3,0
+20,Derby County,Blackburn Rovers,1,2,0,3
+20,Everton,Arsenal,1,4,0,3
+20,Manchester City,Liverpool,0,0,1,1
+20,Portsmouth,Middlesbrough,0,1,0,3
+20,Sunderland,Bolton Wanderers,3,1,3,0
+20,Tottenham Hotspur,FC Reading,6,4,3,0
+20,West Ham United,Manchester United,2,1,3,0
+20,Wigan Athletic,Aston Villa,1,2,0,3
+21,Arsenal,West Ham United,2,0,3,0
+21,Aston Villa,Tottenham Hotspur,2,1,3,0
+21,Blackburn Rovers,Sunderland,1,0,3,0
+21,Bolton Wanderers,Derby County,1,0,3,0
+21,Fulham,Chelsea,1,2,0,3
+21,Liverpool,Wigan Athletic,1,1,1,1
+21,Manchester United,Birmingham City,1,0,3,0
+21,Middlesbrough,Manchester City,8,1,3,0
+21,Newcastle United,Everton,3,2,3,0
+21,FC Reading,Portsmouth,0,2,0,3
+22,Arsenal,Birmingham City,1,1,1,1
+22,Aston Villa,FC Reading,3,1,3,0
+22,Bolton Wanderers,Blackburn Rovers,1,2,0,3
+22,Chelsea,Tottenham Hotspur,2,0,3,0
+22,Derby County,Wigan Athletic,0,1,0,3
+22,Everton,Manchester City,1,0,3,0
+22,Manchester United,Newcastle United,6,0,3,0
+22,Middlesbrough,Liverpool,1,1,1,1
+22,Sunderland,Portsmouth,2,0,3,0
+22,West Ham United,Fulham,2,1,3,0
+23,Birmingham City,Chelsea,0,1,0,3
+23,Blackburn Rovers,Middlesbrough,1,1,1,1
+23,Fulham,Arsenal,0,3,0,3
+23,Liverpool,Aston Villa,2,2,1,1
+23,Manchester City,West Ham United,1,1,1,1
+23,Newcastle United,Bolton Wanderers,0,0,1,1
+23,Portsmouth,Derby County,3,1,3,0
+23,FC Reading,Manchester United,0,2,0,3
+23,Tottenham Hotspur,Sunderland,2,0,3,0
+23,Wigan Athletic,Everton,1,2,0,3
+24,Arsenal,Newcastle United,3,0,3,0
+24,Bolton Wanderers,Fulham,0,0,1,1
+24,Derby County,Manchester City,1,1,1,1
+24,Middlesbrough,Wigan Athletic,1,0,3,0
+24,Sunderland,Birmingham City,2,0,3,0
+24,West Ham United,Liverpool,1,0,3,0
+24,Aston Villa,Blackburn Rovers,1,1,1,1
+24,Chelsea,FC Reading,1,0,3,0
+24,Everton,Tottenham Hotspur,0,0,1,1
+24,Manchester United,Portsmouth,2,0,3,0
+25,Birmingham City,Derby County,1,1,1,1
+25,Blackburn Rovers,Everton,0,0,1,1
+25,Fulham,Aston Villa,2,1,3,0
+25,Liverpool,Sunderland,3,0,3,0
+25,Manchester City,Arsenal,1,3,0,3
+25,Newcastle United,Middlesbrough,1,1,1,1
+25,Portsmouth,Chelsea,1,1,1,1
+25,FC Reading,Bolton Wanderers,0,2,0,3
+25,Tottenham Hotspur,Manchester United,1,1,1,1
+25,Wigan Athletic,West Ham United,1,0,3,0
+26,Arsenal,Blackburn Rovers,2,0,3,0
+26,Aston Villa,Newcastle United,4,1,3,0
+26,Bolton Wanderers,Portsmouth,0,1,0,3
+26,Chelsea,Liverpool,0,0,1,1
+26,Derby County,Tottenham Hotspur,0,3,0,3
+26,Everton,FC Reading,1,0,3,0
+26,Manchester United,Manchester City,1,2,0,3
+26,Middlesbrough,Fulham,1,0,3,0
+26,Sunderland,Wigan Athletic,2,0,3,0
+26,West Ham United,Birmingham City,1,1,1,1
+27,Birmingham City,Arsenal,2,2,1,1
+27,Blackburn Rovers,Bolton Wanderers,4,1,3,0
+27,Fulham,West Ham United,0,1,0,3
+27,Liverpool,Middlesbrough,3,2,3,0
+27,Manchester City,Everton,0,2,0,3
+27,Newcastle United,Manchester United,1,5,0,3
+27,Portsmouth,Sunderland,1,0,3,0
+27,FC Reading,Aston Villa,1,2,0,3
+27,Tottenham Hotspur,Chelsea,4,4,1,1
+27,Wigan Athletic,Derby County,2,0,3,0
+28,Arsenal,Aston Villa,1,1,1,1
+28,Birmingham City,Tottenham Hotspur,4,1,3,0
+28,Bolton Wanderers,Liverpool,1,3,0,3
+28,Derby County,Sunderland,0,0,1,1
+28,Everton,Portsmouth,3,1,3,0
+28,Fulham,Manchester United,0,3,0,3
+28,Manchester City,Wigan Athletic,0,0,1,1
+28,Middlesbrough,FC Reading,0,1,0,3
+28,Newcastle United,Blackburn Rovers,0,1,0,3
+28,West Ham United,Chelsea,0,4,0,3
+29,Aston Villa,Middlesbrough,1,1,1,1
+29,Blackburn Rovers,Fulham,1,1,1,1
+29,Chelsea,Derby County,6,1,3,0
+29,Liverpool,Newcastle United,3,0,3,0
+29,Manchester United,Bolton Wanderers,2,0,3,0
+29,Portsmouth,Birmingham City,4,2,3,0
+29,FC Reading,Manchester City,2,0,3,0
+29,Sunderland,Everton,0,1,0,3
+29,Tottenham Hotspur,West Ham United,4,0,3,0
+29,Wigan Athletic,Arsenal,0,0,1,1
+30,Arsenal,Middlesbrough,1,1,1,1
+30,Birmingham City,Newcastle United,1,1,1,1
+30,Derby County,Manchester United,0,1,0,3
+30,Fulham,Everton,1,0,3,0
+30,Liverpool,FC Reading,2,1,3,0
+30,Manchester City,Tottenham Hotspur,2,1,3,0
+30,Portsmouth,Aston Villa,2,0,3,0
+30,Sunderland,Chelsea,0,1,0,3
+30,West Ham United,Blackburn Rovers,2,1,3,0
+30,Wigan Athletic,Bolton Wanderers,1,0,3,0
+31,Aston Villa,Sunderland,0,1,0,3
+31,Blackburn Rovers,Wigan Athletic,3,1,3,0
+31,Bolton Wanderers,Manchester City,0,0,1,1
+31,Chelsea,Arsenal,2,1,3,0
+31,Everton,West Ham United,1,1,1,1
+31,Manchester United,Liverpool,3,0,3,0
+31,Middlesbrough,Derby County,1,0,3,0
+31,Newcastle United,Fulham,2,0,3,0
+31,FC Reading,Birmingham City,2,1,3,0
+31,Tottenham Hotspur,Portsmouth,2,0,3,0
+32,Birmingham City,Manchester City,3,1,3,0
+32,Bolton Wanderers,Arsenal,2,3,0,3
+32,Chelsea,Middlesbrough,1,0,3,0
+32,Derby County,Fulham,2,2,1,1
+32,Liverpool,Everton,1,0,3,0
+32,Manchester United,Aston Villa,4,0,3,0
+32,Portsmouth,Wigan Athletic,2,0,3,0
+32,FC Reading,Blackburn Rovers,0,0,1,1
+32,Sunderland,West Ham United,2,1,3,0
+32,Tottenham Hotspur,Newcastle United,1,4,0,3
+33,Arsenal,Liverpool,1,1,1,1
+33,Aston Villa,Bolton Wanderers,4,0,3,0
+33,Blackburn Rovers,Tottenham Hotspur,1,1,1,1
+33,Everton,Derby County,1,0,3,0
+33,Fulham,Sunderland,1,3,0,3
+33,Manchester City,Chelsea,0,2,0,3
+33,Middlesbrough,Manchester United,2,2,1,1
+33,Newcastle United,FC Reading,3,0,3,0
+33,West Ham United,Portsmouth,0,1,0,3
+33,Wigan Athletic,Birmingham City,2,0,3,0
+34,Birmingham City,Everton,1,1,1,1
+34,Bolton Wanderers,West Ham United,1,0,3,0
+34,Chelsea,Wigan Athletic,1,1,1,1
+34,Derby County,Aston Villa,0,6,0,3
+34,Liverpool,Blackburn Rovers,3,1,3,0
+34,Manchester United,Arsenal,2,1,3,0
+34,Portsmouth,Newcastle United,0,0,1,1
+34,FC Reading,Fulham,0,2,0,3
+34,Sunderland,Manchester City,1,2,0,3
+34,Tottenham Hotspur,Middlesbrough,1,1,1,1
+35,Arsenal,FC Reading,2,0,3,0
+35,Aston Villa,Birmingham City,5,1,3,0
+35,Blackburn Rovers,Manchester United,1,1,1,1
+35,Everton,Chelsea,0,1,0,3
+35,Fulham,Liverpool,0,2,0,3
+35,Manchester City,Portsmouth,3,1,3,0
+35,Middlesbrough,Bolton Wanderers,0,1,0,3
+35,Newcastle United,Sunderland,2,0,3,0
+35,West Ham United,Derby County,2,1,3,0
+35,Wigan Athletic,Tottenham Hotspur,1,1,1,1
+36,Birmingham City,Liverpool,2,2,1,1
+36,Chelsea,Manchester United,2,1,3,0
+36,Derby County,Arsenal,2,6,0,3
+36,Everton,Aston Villa,2,2,1,1
+36,Manchester City,Fulham,2,3,0,3
+36,Portsmouth,Blackburn Rovers,0,1,0,3
+36,Sunderland,Middlesbrough,3,2,3,0
+36,Tottenham Hotspur,Bolton Wanderers,1,1,1,1
+36,West Ham United,Newcastle United,2,2,1,1
+36,Wigan Athletic,FC Reading,0,0,1,1
+37,Arsenal,Everton,1,0,3,0
+37,Aston Villa,Wigan Athletic,0,2,0,3
+37,Blackburn Rovers,Derby County,3,1,3,0
+37,Bolton Wanderers,Sunderland,2,0,3,0
+37,Fulham,Birmingham City,2,0,3,0
+37,Liverpool,Manchester City,1,0,3,0
+37,Manchester United,West Ham United,4,1,3,0
+37,Middlesbrough,Portsmouth,2,0,3,0
+37,Newcastle United,Chelsea,0,2,0,3
+37,FC Reading,Tottenham Hotspur,0,1,0,3
+38,Birmingham City,Blackburn Rovers,4,1,3,0
+38,Chelsea,Bolton Wanderers,1,1,1,1
+38,Derby County,FC Reading,0,4,0,3
+38,Everton,Middlesbrough,2,0,3,0
+38,Manchester City,Newcastle United,3,1,3,0
+38,Portsmouth,Fulham,0,1,0,3
+38,Sunderland,Arsenal,0,1,0,3
+38,Tottenham Hotspur,Liverpool,0,2,0,3
+38,West Ham United,Aston Villa,2,2,1,1
+38,Wigan Athletic,Manchester United,0,2,0,3

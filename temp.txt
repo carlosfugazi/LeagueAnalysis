@@ -1,0 +1,15 @@
+logos/Arsenal-icon.png
+logos/bayern-munich-logo.png
+logos/Borussia_Dortmund.png
+logos/bundesliga-logo.png
+logos/Chelsea_FC.png
+logos/English-Premier-League-Logo.png
+logos/Everton_FC_Crest-colour.svg.png
+logos/FC_Schalke_04_Logo.svg.png
+logos/league_logo_def.csv
+logos/LiverpoolFC_Logo_by_banditajj4wallpaperart.png
+logos/manchester-city-logo.png
+logos/manchester_united_logo.png
+logos/team_logo_def.csv
+logos/Tottenham-Hotspur-icon.png
+logos/uefa-champions-league-logo.jpg

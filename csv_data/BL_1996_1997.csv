@@ -1,0 +1,307 @@
+Bundesliga,Germany,1996-1997
+Matchday,Home Team,Away Team,Goals Home,Goals Away,Points Home,Points Away
+1,Borussia Mgladbach,Arminia Bielefeld,0,0,1,1
+1,VfL Bochum,MSV Duisburg,1,0,3,0
+1,VfB Stuttgart,Schalke 04,4,0,3,0
+1,FC Hansa Rostock,Karlsruher SC,2,2,1,1
+1,SC Freiburg,SV Werder Bremen,3,2,3,0
+1,TSV 1860 Muenchen,Hamburger SV,2,1,3,0
+1,Bayer Leverkusen,Borussia Dortmund,4,2,3,0
+1,Fortuna Duesseldorf,1.FC Koeln,0,3,0,3
+2,Hamburger SV,SC Freiburg,5,1,3,0
+2,SV Werder Bremen,FC Hansa Rostock,1,1,1,1
+2,Schalke 04,Borussia Mgladbach,0,0,1,1
+2,Arminia Bielefeld,FC St. Pauli,1,2,0,3
+2,Borussia Dortmund,Fortuna Duesseldorf,4,0,3,0
+2,FC Bayern Muenchen,VfL Bochum,1,1,1,1
+2,MSV Duisburg,Bayer Leverkusen,1,3,0,3
+2,1.FC Koeln,TSV 1860 Muenchen,1,0,3,0
+2,Karlsruher SC,VfB Stuttgart,0,2,0,3
+3,FC Hansa Rostock,Hamburger SV,0,1,0,3
+3,VfL Bochum,Arminia Bielefeld,1,1,1,1
+3,Borussia Mgladbach,Karlsruher SC,1,3,0,3
+3,VfB Stuttgart,SV Werder Bremen,2,1,3,0
+3,SC Freiburg,1.FC Koeln,1,3,0,3
+3,TSV 1860 Muenchen,Borussia Dortmund,1,3,0,3
+3,Bayer Leverkusen,Fortuna Duesseldorf,0,1,0,3
+3,MSV Duisburg,FC Bayern Muenchen,0,4,0,3
+3,FC St. Pauli,Schalke 04,4,4,1,1
+4,Borussia Dortmund,SC Freiburg,3,1,3,0
+4,Hamburger SV,VfB Stuttgart,0,4,0,3
+4,SV Werder Bremen,Borussia Mgladbach,1,0,3,0
+4,Schalke 04,VfL Bochum,1,1,1,1
+4,Karlsruher SC,FC St. Pauli,4,0,3,0
+4,Arminia Bielefeld,MSV Duisburg,1,1,1,1
+4,FC Bayern Muenchen,Bayer Leverkusen,4,2,3,0
+4,Fortuna Duesseldorf,TSV 1860 Muenchen,0,0,1,1
+4,1.FC Koeln,FC Hansa Rostock,0,2,0,3
+5,Borussia Mgladbach,Hamburger SV,3,0,3,0
+5,SC Freiburg,Fortuna Duesseldorf,1,2,0,3
+5,VfL Bochum,Karlsruher SC,3,1,3,0
+5,FC St. Pauli,SV Werder Bremen,0,3,0,3
+5,FC Hansa Rostock,Borussia Dortmund,0,1,0,3
+5,FC Bayern Muenchen,Arminia Bielefeld,1,0,3,0
+5,MSV Duisburg,Schalke 04,0,1,0,3
+5,Bayer Leverkusen,TSV 1860 Muenchen,3,0,3,0
+5,VfB Stuttgart,1.FC Koeln,4,0,3,0
+6,SV Werder Bremen,VfL Bochum,5,1,3,0
+6,Fortuna Duesseldorf,FC Hansa Rostock,0,2,0,3
+6,Borussia Dortmund,VfB Stuttgart,1,1,1,1
+6,Karlsruher SC,MSV Duisburg,1,0,3,0
+6,Schalke 04,FC Bayern Muenchen,1,1,1,1
+6,Arminia Bielefeld,Bayer Leverkusen,0,1,0,3
+6,TSV 1860 Muenchen,SC Freiburg,4,0,3,0
+6,1.FC Koeln,Borussia Mgladbach,4,0,3,0
+6,Hamburger SV,FC St. Pauli,3,0,3,0
+7,FC Hansa Rostock,TSV 1860 Muenchen,2,4,0,3
+7,MSV Duisburg,SV Werder Bremen,3,2,3,0
+7,VfL Bochum,Hamburger SV,3,1,3,0
+7,FC St. Pauli,1.FC Koeln,0,0,1,1
+7,Borussia Mgladbach,Borussia Dortmund,5,1,3,0
+7,VfB Stuttgart,Fortuna Duesseldorf,0,2,0,3
+7,Arminia Bielefeld,Schalke 04,0,1,0,3
+7,FC Bayern Muenchen,Karlsruher SC,1,0,3,0
+7,Bayer Leverkusen,SC Freiburg,5,3,3,0
+8,Karlsruher SC,Arminia Bielefeld,5,2,3,0
+8,1.FC Koeln,VfL Bochum,2,0,3,0
+8,Hamburger SV,MSV Duisburg,1,1,1,1
+8,SV Werder Bremen,FC Bayern Muenchen,3,0,3,0
+8,Schalke 04,Bayer Leverkusen,1,2,0,3
+8,SC Freiburg,FC Hansa Rostock,1,0,3,0
+8,TSV 1860 Muenchen,VfB Stuttgart,2,5,0,3
+8,Fortuna Duesseldorf,Borussia Mgladbach,1,0,3,0
+8,Borussia Dortmund,FC St. Pauli,2,1,3,0
+9,VfL Bochum,Borussia Dortmund,1,0,3,0
+9,VfB Stuttgart,SC Freiburg,4,2,3,0
+9,Bayer Leverkusen,FC Hansa Rostock,4,1,3,0
+9,FC St. Pauli,Fortuna Duesseldorf,3,0,3,0
+9,Borussia Mgladbach,TSV 1860 Muenchen,1,0,3,0
+9,Schalke 04,Karlsruher SC,0,1,0,3
+9,Arminia Bielefeld,SV Werder Bremen,3,1,3,0
+9,FC Bayern Muenchen,Hamburger SV,2,1,3,0
+9,MSV Duisburg,1.FC Koeln,3,0,3,0
+10,SC Freiburg,Borussia Mgladbach,1,0,3,0
+10,TSV 1860 Muenchen,FC St. Pauli,4,2,3,0
+10,Borussia Dortmund,MSV Duisburg,2,0,3,0
+10,Hamburger SV,Arminia Bielefeld,2,2,1,1
+10,SV Werder Bremen,Schalke 04,3,0,3,0
+10,Karlsruher SC,Bayer Leverkusen,1,1,1,1
+10,FC Hansa Rostock,VfB Stuttgart,2,2,1,1
+10,1.FC Koeln,FC Bayern Muenchen,2,4,0,3
+10,Fortuna Duesseldorf,VfL Bochum,2,2,1,1
+11,VfL Bochum,TSV 1860 Muenchen,2,2,1,1
+11,Bayer Leverkusen,VfB Stuttgart,0,0,1,1
+11,FC St. Pauli,SC Freiburg,2,0,3,0
+11,Borussia Mgladbach,FC Hansa Rostock,2,0,3,0
+11,Karlsruher SC,SV Werder Bremen,1,3,0,3
+11,Schalke 04,Hamburger SV,2,0,3,0
+11,Arminia Bielefeld,1.FC Koeln,1,4,0,3
+11,MSV Duisburg,Fortuna Duesseldorf,0,0,1,1
+11,FC Bayern Muenchen,Borussia Dortmund,0,0,1,1
+12,Borussia Dortmund,Arminia Bielefeld,5,0,3,0
+12,Hamburger SV,Karlsruher SC,2,0,3,0
+12,VfB Stuttgart,Borussia Mgladbach,5,0,3,0
+12,TSV 1860 Muenchen,MSV Duisburg,1,1,1,1
+12,Fortuna Duesseldorf,FC Bayern Muenchen,0,2,0,3
+12,1.FC Koeln,Schalke 04,3,1,3,0
+12,SC Freiburg,VfL Bochum,0,1,0,3
+12,SV Werder Bremen,Bayer Leverkusen,1,1,1,1
+12,FC Hansa Rostock,FC St. Pauli,3,1,3,0
+13,VfL Bochum,FC Hansa Rostock,1,0,3,0
+13,FC Bayern Muenchen,TSV 1860 Muenchen,1,1,1,1
+13,FC St. Pauli,VfB Stuttgart,2,1,3,0
+13,SV Werder Bremen,Hamburger SV,0,0,1,1
+13,Schalke 04,Borussia Dortmund,1,3,0,3
+13,Arminia Bielefeld,Fortuna Duesseldorf,1,0,3,0
+13,MSV Duisburg,SC Freiburg,1,4,0,3
+13,Bayer Leverkusen,Borussia Mgladbach,3,0,3,0
+13,Karlsruher SC,1.FC Koeln,4,1,3,0
+14,Borussia Mgladbach,FC St. Pauli,0,0,1,1
+14,1.FC Koeln,SV Werder Bremen,4,1,3,0
+14,Borussia Dortmund,Karlsruher SC,1,1,1,1
+14,Hamburger SV,Bayer Leverkusen,0,2,0,3
+14,VfB Stuttgart,VfL Bochum,3,1,3,0
+14,SC Freiburg,FC Bayern Muenchen,0,0,1,1
+14,TSV 1860 Muenchen,Arminia Bielefeld,1,3,0,3
+14,Fortuna Duesseldorf,Schalke 04,1,3,0,3
+14,FC Hansa Rostock,MSV Duisburg,0,1,0,3
+15,VfL Bochum,Borussia Mgladbach,2,0,3,0
+15,Karlsruher SC,Fortuna Duesseldorf,2,0,3,0
+15,FC St. Pauli,Bayer Leverkusen,3,1,3,0
+15,SV Werder Bremen,Borussia Dortmund,0,4,0,3
+15,Schalke 04,TSV 1860 Muenchen,4,1,3,0
+15,Arminia Bielefeld,SC Freiburg,2,0,3,0
+15,FC Bayern Muenchen,FC Hansa Rostock,2,1,3,0
+15,1.FC Koeln,Hamburger SV,2,2,1,1
+15,MSV Duisburg,VfB Stuttgart,3,1,3,0
+16,Borussia Dortmund,Hamburger SV,1,1,1,1
+16,Borussia Mgladbach,MSV Duisburg,0,1,0,3
+16,FC Hansa Rostock,Arminia Bielefeld,3,1,3,0
+16,SC Freiburg,Schalke 04,2,3,0,3
+16,TSV 1860 Muenchen,Karlsruher SC,1,1,1,1
+16,Bayer Leverkusen,1.FC Koeln,4,2,3,0
+16,Fortuna Duesseldorf,SV Werder Bremen,4,1,3,0
+16,VfB Stuttgart,FC Bayern Muenchen,1,1,1,1
+16,FC St. Pauli,VfL Bochum,2,1,3,0
+17,VfL Bochum,Bayer Leverkusen,2,2,1,1
+17,Karlsruher SC,SC Freiburg,3,0,3,0
+17,Schalke 04,FC Hansa Rostock,2,0,3,0
+17,SV Werder Bremen,TSV 1860 Muenchen,1,1,1,1
+17,Hamburger SV,Fortuna Duesseldorf,2,1,3,0
+17,Arminia Bielefeld,VfB Stuttgart,2,0,3,0
+17,FC Bayern Muenchen,Borussia Mgladbach,1,0,3,0
+17,MSV Duisburg,FC St. Pauli,1,0,3,0
+17,1.FC Koeln,Borussia Dortmund,1,3,0,3
+18,1.FC Koeln,Fortuna Duesseldorf,2,0,3,0
+18,Borussia Dortmund,Bayer Leverkusen,3,1,3,0
+18,MSV Duisburg,VfL Bochum,1,1,1,1
+18,FC Bayern Muenchen,FC St. Pauli,3,0,3,0
+18,Schalke 04,VfB Stuttgart,1,0,3,0
+18,Karlsruher SC,FC Hansa Rostock,1,1,1,1
+18,SV Werder Bremen,SC Freiburg,1,0,3,0
+18,Hamburger SV,TSV 1860 Muenchen,2,3,0,3
+18,Arminia Bielefeld,Borussia Mgladbach,0,2,0,3
+19,Fortuna Duesseldorf,Borussia Dortmund,2,0,3,0
+19,SC Freiburg,Hamburger SV,0,4,0,3
+19,FC St. Pauli,Arminia Bielefeld,2,3,0,3
+19,FC Hansa Rostock,SV Werder Bremen,0,1,0,3
+19,VfB Stuttgart,Karlsruher SC,1,0,3,0
+19,Borussia Mgladbach,Schalke 04,0,0,1,1
+19,VfL Bochum,FC Bayern Muenchen,1,1,1,1
+19,Bayer Leverkusen,MSV Duisburg,1,0,3,0
+19,TSV 1860 Muenchen,1.FC Koeln,2,1,3,0
+20,Arminia Bielefeld,VfL Bochum,3,1,3,0
+20,Schalke 04,FC St. Pauli,0,0,1,1
+20,Karlsruher SC,Borussia Mgladbach,1,1,1,1
+20,SV Werder Bremen,VfB Stuttgart,2,2,1,1
+20,1.FC Koeln,SC Freiburg,1,0,3,0
+20,Borussia Dortmund,TSV 1860 Muenchen,4,1,3,0
+20,FC Bayern Muenchen,MSV Duisburg,5,2,3,0
+20,Fortuna Duesseldorf,Bayer Leverkusen,0,0,1,1
+20,Hamburger SV,FC Hansa Rostock,1,1,1,1
+21,FC Hansa Rostock,1.FC Koeln,0,0,1,1
+21,VfL Bochum,Schalke 04,0,1,0,3
+21,SC Freiburg,Borussia Dortmund,1,2,0,3
+21,VfB Stuttgart,Hamburger SV,4,1,3,0
+21,Borussia Mgladbach,SV Werder Bremen,4,1,3,0
+21,FC St. Pauli,Karlsruher SC,2,4,0,3
+21,MSV Duisburg,Arminia Bielefeld,0,0,1,1
+21,TSV 1860 Muenchen,Fortuna Duesseldorf,3,0,3,0
+21,Bayer Leverkusen,FC Bayern Muenchen,5,2,3,0
+22,Karlsruher SC,VfL Bochum,2,3,0,3
+22,SV Werder Bremen,FC St. Pauli,2,1,3,0
+22,Hamburger SV,Borussia Mgladbach,2,1,3,0
+22,1.FC Koeln,VfB Stuttgart,1,5,0,3
+22,Schalke 04,MSV Duisburg,4,0,3,0
+22,Borussia Dortmund,FC Hansa Rostock,3,0,3,0
+22,Fortuna Duesseldorf,SC Freiburg,2,1,3,0
+22,Arminia Bielefeld,FC Bayern Muenchen,2,0,3,0
+22,TSV 1860 Muenchen,Bayer Leverkusen,3,0,3,0
+23,FC St. Pauli,Hamburger SV,2,2,1,1
+23,MSV Duisburg,Karlsruher SC,2,2,1,1
+23,VfB Stuttgart,Borussia Dortmund,4,1,3,0
+23,FC Bayern Muenchen,Schalke 04,3,0,3,0
+23,Bayer Leverkusen,Arminia Bielefeld,1,0,3,0
+23,SC Freiburg,TSV 1860 Muenchen,2,2,1,1
+23,FC Hansa Rostock,Fortuna Duesseldorf,3,1,3,0
+23,Borussia Mgladbach,1.FC Koeln,2,1,3,0
+23,VfL Bochum,SV Werder Bremen,3,2,3,0
+24,Fortuna Duesseldorf,VfB Stuttgart,0,4,0,3
+24,SV Werder Bremen,MSV Duisburg,0,2,0,3
+24,Hamburger SV,VfL Bochum,2,2,1,1
+24,1.FC Koeln,FC St. Pauli,0,1,0,3
+24,Borussia Dortmund,Borussia Mgladbach,1,3,0,3
+24,TSV 1860 Muenchen,FC Hansa Rostock,2,0,3,0
+24,Schalke 04,Arminia Bielefeld,0,0,1,1
+24,SC Freiburg,Bayer Leverkusen,1,2,0,3
+24,Karlsruher SC,FC Bayern Muenchen,0,2,0,3
+25,FC St. Pauli,Borussia Dortmund,0,1,0,3
+25,MSV Duisburg,Hamburger SV,1,1,1,1
+25,VfB Stuttgart,TSV 1860 Muenchen,1,1,1,1
+25,VfL Bochum,1.FC Koeln,2,2,1,1
+25,FC Bayern Muenchen,SV Werder Bremen,1,0,3,0
+25,Arminia Bielefeld,Karlsruher SC,1,2,0,3
+25,Bayer Leverkusen,Schalke 04,2,0,3,0
+25,FC Hansa Rostock,SC Freiburg,3,1,3,0
+25,Borussia Mgladbach,Fortuna Duesseldorf,2,0,3,0
+26,TSV 1860 Muenchen,Borussia Mgladbach,3,0,3,0
+26,1.FC Koeln,MSV Duisburg,2,5,0,3
+26,Borussia Dortmund,VfL Bochum,2,0,3,0
+26,Fortuna Duesseldorf,FC St. Pauli,2,0,3,0
+26,Karlsruher SC,Schalke 04,0,0,1,1
+26,SV Werder Bremen,Arminia Bielefeld,2,1,3,0
+26,Hamburger SV,FC Bayern Muenchen,0,3,0,3
+26,FC Hansa Rostock,Bayer Leverkusen,1,0,3,0
+26,SC Freiburg,VfB Stuttgart,1,1,1,1
+27,Arminia Bielefeld,Hamburger SV,1,1,1,1
+27,Bayer Leverkusen,Karlsruher SC,3,1,3,0
+27,MSV Duisburg,Borussia Dortmund,3,2,3,0
+27,Schalke 04,SV Werder Bremen,1,1,1,1
+27,VfB Stuttgart,FC Hansa Rostock,5,1,3,0
+27,Borussia Mgladbach,SC Freiburg,4,3,3,0
+27,FC St. Pauli,TSV 1860 Muenchen,0,0,1,1
+27,FC Bayern Muenchen,1.FC Koeln,3,2,3,0
+27,VfL Bochum,Fortuna Duesseldorf,3,1,3,0
+28,FC Hansa Rostock,Borussia Mgladbach,1,0,3,0
+28,Fortuna Duesseldorf,MSV Duisburg,1,1,1,1
+28,TSV 1860 Muenchen,VfL Bochum,0,1,0,3
+28,SC Freiburg,FC St. Pauli,4,0,3,0
+28,SV Werder Bremen,Karlsruher SC,1,0,3,0
+28,Hamburger SV,Schalke 04,1,0,3,0
+28,1.FC Koeln,Arminia Bielefeld,2,5,0,3
+28,Borussia Dortmund,FC Bayern Muenchen,1,1,1,1
+28,VfB Stuttgart,Bayer Leverkusen,1,2,0,3
+29,FC St. Pauli,FC Hansa Rostock,0,1,0,3
+29,Bayer Leverkusen,SV Werder Bremen,2,1,3,0
+29,MSV Duisburg,TSV 1860 Muenchen,2,3,0,3
+29,Arminia Bielefeld,Borussia Dortmund,2,0,3,0
+29,Karlsruher SC,Hamburger SV,3,1,3,0
+29,Borussia Mgladbach,VfB Stuttgart,0,1,0,3
+29,VfL Bochum,SC Freiburg,3,2,3,0
+29,FC Bayern Muenchen,Fortuna Duesseldorf,5,0,3,0
+29,Schalke 04,1.FC Koeln,1,1,1,1
+30,FC Hansa Rostock,VfL Bochum,0,0,1,1
+30,Fortuna Duesseldorf,Arminia Bielefeld,1,2,0,3
+30,VfB Stuttgart,FC St. Pauli,3,0,3,0
+30,Hamburger SV,SV Werder Bremen,3,2,3,0
+30,1.FC Koeln,Karlsruher SC,4,1,3,0
+30,Borussia Dortmund,Schalke 04,1,0,3,0
+30,SC Freiburg,MSV Duisburg,2,0,3,0
+30,Borussia Mgladbach,Bayer Leverkusen,2,2,1,1
+30,TSV 1860 Muenchen,FC Bayern Muenchen,3,3,1,1
+31,MSV Duisburg,FC Hansa Rostock,0,1,0,3
+31,SV Werder Bremen,1.FC Koeln,3,2,3,0
+31,Karlsruher SC,Borussia Dortmund,1,1,1,1
+31,FC St. Pauli,Borussia Mgladbach,1,3,0,3
+31,VfL Bochum,VfB Stuttgart,2,1,3,0
+31,FC Bayern Muenchen,SC Freiburg,0,0,1,1
+31,Arminia Bielefeld,TSV 1860 Muenchen,2,3,0,3
+31,Schalke 04,Fortuna Duesseldorf,0,1,0,3
+31,Bayer Leverkusen,Hamburger SV,5,0,3,0
+32,Fortuna Duesseldorf,Karlsruher SC,0,3,0,3
+32,FC Hansa Rostock,FC Bayern Muenchen,0,3,0,3
+32,Borussia Mgladbach,VfL Bochum,6,2,3,0
+32,Bayer Leverkusen,FC St. Pauli,3,0,3,0
+32,Borussia Dortmund,SV Werder Bremen,2,1,3,0
+32,TSV 1860 Muenchen,Schalke 04,2,1,3,0
+32,VfB Stuttgart,MSV Duisburg,0,2,0,3
+32,Hamburger SV,1.FC Koeln,0,4,0,3
+32,SC Freiburg,Arminia Bielefeld,2,1,3,0
+33,Hamburger SV,Borussia Dortmund,2,1,3,0
+33,VfL Bochum,FC St. Pauli,6,0,3,0
+33,MSV Duisburg,Borussia Mgladbach,4,2,3,0
+33,FC Bayern Muenchen,VfB Stuttgart,4,2,3,0
+33,Arminia Bielefeld,FC Hansa Rostock,1,3,0,3
+33,Schalke 04,SC Freiburg,0,2,0,3
+33,Karlsruher SC,TSV 1860 Muenchen,3,0,3,0
+33,SV Werder Bremen,Fortuna Duesseldorf,1,0,3,0
+33,1.FC Koeln,Bayer Leverkusen,4,0,3,0
+34,Bayer Leverkusen,VfL Bochum,2,0,3,0
+34,Fortuna Duesseldorf,Hamburger SV,1,1,1,1
+34,TSV 1860 Muenchen,SV Werder Bremen,0,3,0,3
+34,SC Freiburg,Karlsruher SC,1,1,1,1
+34,FC Hansa Rostock,Schalke 04,0,1,0,3
+34,VfB Stuttgart,Arminia Bielefeld,4,2,3,0
+34,Borussia Mgladbach,FC Bayern Muenchen,2,2,1,1
+34,FC St. Pauli,MSV Duisburg,0,2,0,3
+34,Borussia Dortmund,1.FC Koeln,2,1,3,0

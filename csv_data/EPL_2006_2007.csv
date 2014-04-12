@@ -1,0 +1,382 @@
+English Premier League,England,2006-2007
+Matchday,Home Team,Away Team,Goals Home,Goals Away,Points Home,Points Away
+1,Sheffield United,Liverpool,1,1,1,1
+1,Arsenal,Aston Villa,1,1,1,1
+1,Everton,FC Watford,2,1,3,0
+1,Newcastle United,Wigan Athletic,2,1,3,0
+1,Portsmouth,Blackburn Rovers,3,0,3,0
+1,FC Reading,Middlesbrough,3,2,3,0
+1,West Ham United,Charlton Athletic,3,1,3,0
+1,Bolton Wanderers,Tottenham Hotspur,2,0,3,0
+1,Manchester United,Fulham,5,1,3,0
+1,Chelsea,Manchester City,3,0,3,0
+2,FC Watford,West Ham United,1,1,1,1
+2,Tottenham Hotspur,Sheffield United,2,0,3,0
+2,Aston Villa,FC Reading,2,1,3,0
+2,Blackburn Rovers,Everton,1,1,1,1
+2,Manchester City,Portsmouth,0,0,1,1
+2,Charlton Athletic,Manchester United,0,3,0,3
+2,Middlesbrough,Chelsea,2,1,3,0
+2,Fulham,Bolton Wanderers,1,1,1,1
+2,Liverpool,Newcastle United,2,0,3,0
+2,Wigan Athletic,Arsenal,0,1,0,3
+3,Blackburn Rovers,Chelsea,0,2,0,3
+3,Charlton Athletic,Bolton Wanderers,2,0,3,0
+3,Wigan Athletic,FC Reading,1,0,3,0
+3,Aston Villa,Newcastle United,2,0,3,0
+3,Middlesbrough,Portsmouth,0,4,0,3
+3,Manchester City,Arsenal,1,0,3,0
+3,FC Watford,Manchester United,1,2,0,3
+3,Liverpool,West Ham United,2,1,3,0
+3,Tottenham Hotspur,Everton,0,2,0,3
+3,Fulham,Sheffield United,1,0,3,0
+4,Chelsea,Charlton Athletic,2,1,3,0
+4,FC Reading,Manchester City,1,0,3,0
+4,Arsenal,Middlesbrough,1,1,1,1
+4,Bolton Wanderers,FC Watford,1,0,3,0
+4,West Ham United,Aston Villa,1,1,1,1
+4,Portsmouth,Wigan Athletic,1,0,3,0
+4,Sheffield United,Blackburn Rovers,0,0,1,1
+4,Everton,Liverpool,3,0,3,0
+4,Manchester United,Tottenham Hotspur,1,0,3,0
+4,Newcastle United,Fulham,1,2,0,3
+5,Chelsea,Liverpool,1,0,3,0
+5,Sheffield United,FC Reading,1,2,0,3
+5,Blackburn Rovers,Manchester City,4,2,3,0
+5,Bolton Wanderers,Middlesbrough,0,0,1,1
+5,West Ham United,Newcastle United,0,2,0,3
+5,FC Watford,Aston Villa,0,0,1,1
+5,Charlton Athletic,Portsmouth,0,1,0,3
+5,Everton,Wigan Athletic,2,2,1,1
+5,Manchester United,Arsenal,0,1,0,3
+5,Tottenham Hotspur,Fulham,0,0,1,1
+6,Aston Villa,Charlton Athletic,2,0,3,0
+6,FC Reading,Manchester United,1,1,1,1
+6,Wigan Athletic,FC Watford,1,1,1,1
+6,Arsenal,Sheffield United,3,0,3,0
+6,Middlesbrough,Blackburn Rovers,0,1,0,3
+6,Portsmouth,Bolton Wanderers,0,1,0,3
+6,Manchester City,West Ham United,2,0,3,0
+6,Liverpool,Tottenham Hotspur,3,0,3,0
+6,Newcastle United,Everton,1,1,1,1
+6,Fulham,Chelsea,0,2,0,3
+7,Blackburn Rovers,Wigan Athletic,2,1,3,0
+7,Bolton Wanderers,Liverpool,2,0,3,0
+7,Charlton Athletic,Arsenal,1,2,0,3
+7,Chelsea,Aston Villa,1,1,1,1
+7,Everton,Manchester City,1,1,1,1
+7,Manchester United,Newcastle United,2,0,3,0
+7,Sheffield United,Middlesbrough,2,1,3,0
+7,Tottenham Hotspur,Portsmouth,2,1,3,0
+7,FC Watford,Fulham,3,3,1,1
+7,West Ham United,FC Reading,0,1,0,3
+8,Aston Villa,Tottenham Hotspur,1,1,1,1
+8,FC Reading,Chelsea,0,1,0,3
+8,Wigan Athletic,Manchester United,1,3,0,3
+8,Arsenal,FC Watford,3,0,3,0
+8,Middlesbrough,Everton,2,1,3,0
+8,Portsmouth,West Ham United,2,0,3,0
+8,Manchester City,Sheffield United,0,0,1,1
+8,Liverpool,Blackburn Rovers,1,1,1,1
+8,Newcastle United,Bolton Wanderers,1,2,0,3
+8,Fulham,Charlton Athletic,2,1,3,0
+9,Aston Villa,Fulham,1,1,1,1
+9,Blackburn Rovers,Bolton Wanderers,0,1,0,3
+9,Charlton Athletic,FC Watford,0,0,1,1
+9,Chelsea,Portsmouth,2,1,3,0
+9,Everton,Sheffield United,2,0,3,0
+9,Manchester United,Liverpool,2,0,3,0
+9,Middlesbrough,Newcastle United,1,0,3,0
+9,FC Reading,Arsenal,0,4,0,3
+9,Tottenham Hotspur,West Ham United,1,0,3,0
+9,Wigan Athletic,Manchester City,4,0,3,0
+10,Arsenal,Everton,1,1,1,1
+10,Bolton Wanderers,Manchester United,0,4,0,3
+10,Fulham,Wigan Athletic,0,1,0,3
+10,Liverpool,Aston Villa,3,1,3,0
+10,Manchester City,Middlesbrough,1,0,3,0
+10,Newcastle United,Charlton Athletic,0,0,1,1
+10,Portsmouth,FC Reading,3,1,3,0
+10,Sheffield United,Chelsea,0,2,0,3
+10,FC Watford,Tottenham Hotspur,0,0,1,1
+10,West Ham United,Blackburn Rovers,2,1,3,0
+11,Aston Villa,Blackburn Rovers,2,0,3,0
+11,Bolton Wanderers,Wigan Athletic,0,1,0,3
+11,Charlton Athletic,Manchester City,1,0,3,0
+11,Fulham,Everton,1,0,3,0
+11,Liverpool,FC Reading,2,0,3,0
+11,Manchester United,Portsmouth,3,0,3,0
+11,Newcastle United,Sheffield United,0,1,0,3
+11,Tottenham Hotspur,Chelsea,2,1,3,0
+11,FC Watford,Middlesbrough,2,0,3,0
+11,West Ham United,Arsenal,1,0,3,0
+12,Everton,Aston Villa,0,1,0,3
+12,Sheffield United,Bolton Wanderers,2,2,1,1
+12,Wigan Athletic,Charlton Athletic,3,2,3,0
+12,Portsmouth,Fulham,1,1,1,1
+12,Arsenal,Liverpool,3,0,3,0
+12,Blackburn Rovers,Manchester United,0,1,0,3
+12,Manchester City,Newcastle United,0,0,1,1
+12,FC Reading,Tottenham Hotspur,3,1,3,0
+12,Chelsea,FC Watford,4,0,3,0
+12,Middlesbrough,West Ham United,1,0,3,0
+13,Wigan Athletic,Aston Villa,0,0,1,1
+13,Everton,Bolton Wanderers,1,0,3,0
+13,FC Reading,Charlton Athletic,2,0,3,0
+13,Manchester City,Fulham,3,1,3,0
+13,Middlesbrough,Liverpool,0,0,1,1
+13,Sheffield United,Manchester United,1,2,0,3
+13,Arsenal,Newcastle United,1,1,1,1
+13,Blackburn Rovers,Tottenham Hotspur,1,1,1,1
+13,Portsmouth,FC Watford,2,1,3,0
+13,Chelsea,West Ham United,1,0,3,0
+14,Bolton Wanderers,Arsenal,3,1,3,0
+14,FC Watford,Blackburn Rovers,2,1,3,0
+14,Manchester United,Chelsea,1,1,1,1
+14,Charlton Athletic,Everton,1,1,1,1
+14,Liverpool,Manchester City,1,0,3,0
+14,Aston Villa,Middlesbrough,1,1,1,1
+14,Newcastle United,Portsmouth,1,0,3,0
+14,Fulham,FC Reading,0,1,0,3
+14,West Ham United,Sheffield United,1,0,3,0
+14,Tottenham Hotspur,Wigan Athletic,3,1,3,0
+15,Bolton Wanderers,Chelsea,0,1,0,3
+15,FC Watford,Sheffield United,0,1,0,3
+15,Aston Villa,Manchester City,1,3,0,3
+15,Fulham,Arsenal,2,1,3,0
+15,Liverpool,Portsmouth,0,0,1,1
+15,Manchester United,Everton,3,0,3,0
+15,Charlton Athletic,Blackburn Rovers,1,0,3,0
+15,Tottenham Hotspur,Middlesbrough,2,1,3,0
+15,Newcastle United,FC Reading,3,2,3,0
+15,West Ham United,Wigan Athletic,0,2,0,3
+16,FC Reading,Bolton Wanderers,1,0,3,0
+16,Manchester City,FC Watford,0,0,1,1
+16,Sheffield United,Charlton Athletic,2,1,3,0
+16,Portsmouth,Aston Villa,2,2,1,1
+16,Arsenal,Tottenham Hotspur,3,0,3,0
+16,Everton,West Ham United,2,0,3,0
+16,Blackburn Rovers,Fulham,2,0,3,0
+16,Wigan Athletic,Liverpool,0,4,0,3
+16,Middlesbrough,Manchester United,1,2,0,3
+16,Chelsea,Newcastle United,1,0,3,0
+17,Chelsea,Arsenal,1,1,1,1
+17,Sheffield United,Aston Villa,2,2,1,1
+17,Tottenham Hotspur,Charlton Athletic,5,1,3,0
+17,Portsmouth,Everton,2,0,3,0
+17,Liverpool,Fulham,4,0,3,0
+17,Manchester United,Manchester City,3,1,3,0
+17,Blackburn Rovers,Newcastle United,1,3,0,3
+17,FC Watford,FC Reading,0,0,1,1
+17,Bolton Wanderers,West Ham United,4,0,3,0
+17,Middlesbrough,Wigan Athletic,1,1,1,1
+18,FC Reading,Blackburn Rovers,1,2,0,3
+18,Aston Villa,Bolton Wanderers,0,1,0,3
+18,Everton,Chelsea,2,3,0,3
+18,Charlton Athletic,Liverpool,0,3,0,3
+18,West Ham United,Manchester United,1,0,3,0
+18,Fulham,Middlesbrough,2,1,3,0
+18,Arsenal,Portsmouth,2,2,1,1
+18,Wigan Athletic,Sheffield United,0,1,0,3
+18,Manchester City,Tottenham Hotspur,1,2,0,3
+18,Newcastle United,FC Watford,2,1,3,0
+19,Arsenal,Blackburn Rovers,6,2,3,0
+19,Aston Villa,Manchester United,0,3,0,3
+19,Fulham,West Ham United,0,0,1,1
+19,Liverpool,FC Watford,2,0,3,0
+19,Manchester City,Bolton Wanderers,0,2,0,3
+19,Middlesbrough,Charlton Athletic,2,0,3,0
+19,Newcastle United,Tottenham Hotspur,3,1,3,0
+19,Portsmouth,Sheffield United,3,1,3,0
+19,FC Reading,Everton,0,2,0,3
+19,Wigan Athletic,Chelsea,2,3,0,3
+20,Tottenham Hotspur,Aston Villa,2,1,3,0
+20,Chelsea,FC Reading,2,2,1,1
+20,Manchester United,Wigan Athletic,3,1,3,0
+20,FC Watford,Arsenal,1,2,0,3
+20,Everton,Middlesbrough,0,0,1,1
+20,West Ham United,Portsmouth,1,2,0,3
+20,Sheffield United,Manchester City,0,1,0,3
+20,Blackburn Rovers,Liverpool,1,0,3,0
+20,Bolton Wanderers,Newcastle United,2,1,3,0
+20,Charlton Athletic,Fulham,2,2,1,1
+21,Charlton Athletic,Aston Villa,2,1,3,0
+21,Manchester United,FC Reading,3,2,3,0
+21,FC Watford,Wigan Athletic,1,1,1,1
+21,Sheffield United,Arsenal,1,0,3,0
+21,Blackburn Rovers,Middlesbrough,2,1,3,0
+21,Bolton Wanderers,Portsmouth,3,2,3,0
+21,West Ham United,Manchester City,0,1,0,3
+21,Tottenham Hotspur,Liverpool,0,1,0,3
+21,Everton,Newcastle United,3,0,3,0
+21,Chelsea,Fulham,2,2,1,1
+22,Wigan Athletic,Blackburn Rovers,0,3,0,3
+22,Liverpool,Bolton Wanderers,3,0,3,0
+22,Arsenal,Charlton Athletic,4,0,3,0
+22,Aston Villa,Chelsea,0,0,1,1
+22,Manchester City,Everton,2,1,3,0
+22,Newcastle United,Manchester United,2,2,1,1
+22,Middlesbrough,Sheffield United,3,1,3,0
+22,Portsmouth,Tottenham Hotspur,1,1,1,1
+22,Fulham,FC Watford,0,0,1,1
+22,FC Reading,West Ham United,6,0,3,0
+23,Blackburn Rovers,Arsenal,0,2,0,3
+23,Manchester United,Aston Villa,3,1,3,0
+23,West Ham United,Fulham,3,3,1,1
+23,FC Watford,Liverpool,0,3,0,3
+23,Bolton Wanderers,Manchester City,0,0,1,1
+23,Charlton Athletic,Middlesbrough,1,3,0,3
+23,Tottenham Hotspur,Newcastle United,2,3,0,3
+23,Sheffield United,Portsmouth,1,1,1,1
+23,Everton,FC Reading,1,1,1,1
+23,Chelsea,Wigan Athletic,4,0,3,0
+24,Liverpool,Chelsea,2,0,3,0
+24,FC Reading,Sheffield United,3,1,3,0
+24,Manchester City,Blackburn Rovers,0,3,0,3
+24,Middlesbrough,Bolton Wanderers,5,1,3,0
+24,Newcastle United,West Ham United,2,2,1,1
+24,Aston Villa,FC Watford,2,0,3,0
+24,Portsmouth,Charlton Athletic,0,1,0,3
+24,Wigan Athletic,Everton,0,2,0,3
+24,Arsenal,Manchester United,2,1,3,0
+24,Fulham,Tottenham Hotspur,1,1,1,1
+25,Bolton Wanderers,Charlton Athletic,1,1,1,1
+25,FC Reading,Wigan Athletic,3,2,3,0
+25,Portsmouth,Middlesbrough,0,0,1,1
+25,Arsenal,Manchester City,3,1,3,0
+25,Sheffield United,Fulham,2,0,3,0
+25,Chelsea,Blackburn Rovers,3,0,3,0
+25,Newcastle United,Aston Villa,3,1,3,0
+25,Manchester United,FC Watford,4,0,3,0
+25,West Ham United,Liverpool,1,2,0,3
+25,Everton,Tottenham Hotspur,1,2,0,3
+26,Charlton Athletic,Chelsea,0,1,0,3
+26,Manchester City,FC Reading,0,2,0,3
+26,Middlesbrough,Arsenal,1,1,1,1
+26,FC Watford,Bolton Wanderers,0,1,0,3
+26,Aston Villa,West Ham United,1,0,3,0
+26,Wigan Athletic,Portsmouth,1,0,3,0
+26,Blackburn Rovers,Sheffield United,2,1,3,0
+26,Liverpool,Everton,0,0,1,1
+26,Tottenham Hotspur,Manchester United,0,4,0,3
+26,Fulham,Newcastle United,2,1,3,0
+27,Manchester United,Charlton Athletic,2,0,3,0
+27,Chelsea,Middlesbrough,3,0,3,0
+27,Sheffield United,Tottenham Hotspur,2,1,3,0
+27,West Ham United,FC Watford,0,1,0,3
+27,Arsenal,Wigan Athletic,2,1,3,0
+27,FC Reading,Aston Villa,2,0,3,0
+27,Everton,Blackburn Rovers,1,0,3,0
+27,Bolton Wanderers,Fulham,2,1,3,0
+27,Newcastle United,Liverpool,2,1,3,0
+27,Portsmouth,Manchester City,2,1,3,0
+28,Blackburn Rovers,Portsmouth,3,0,3,0
+28,Charlton Athletic,West Ham United,4,0,3,0
+28,Wigan Athletic,Newcastle United,1,0,3,0
+28,Aston Villa,Arsenal,0,1,0,3
+28,Middlesbrough,FC Reading,2,1,3,0
+28,Manchester City,Chelsea,0,1,0,3
+28,FC Watford,Everton,0,3,0,3
+28,Liverpool,Sheffield United,4,0,3,0
+28,Tottenham Hotspur,Bolton Wanderers,4,1,3,0
+28,Fulham,Manchester United,1,2,0,3
+29,Fulham,Aston Villa,1,1,1,1
+29,Bolton Wanderers,Blackburn Rovers,1,2,0,3
+29,FC Watford,Charlton Athletic,2,2,1,1
+29,Portsmouth,Chelsea,0,2,0,3
+29,Sheffield United,Everton,1,1,1,1
+29,Liverpool,Manchester United,0,1,0,3
+29,Newcastle United,Middlesbrough,0,0,1,1
+29,Arsenal,FC Reading,2,1,3,0
+29,West Ham United,Tottenham Hotspur,3,4,0,3
+29,Manchester City,Wigan Athletic,0,1,0,3
+30,Everton,Arsenal,1,0,3,0
+30,Manchester United,Bolton Wanderers,4,1,3,0
+30,Wigan Athletic,Fulham,0,0,1,1
+30,Aston Villa,Liverpool,0,0,1,1
+30,Middlesbrough,Manchester City,0,2,0,3
+30,Charlton Athletic,Newcastle United,2,0,3,0
+30,FC Reading,Portsmouth,0,0,1,1
+30,Chelsea,Sheffield United,3,0,3,0
+30,Tottenham Hotspur,FC Watford,3,1,3,0
+30,Blackburn Rovers,West Ham United,1,2,0,3
+31,Aston Villa,Everton,1,1,1,1
+31,Bolton Wanderers,Sheffield United,1,0,3,0
+31,Charlton Athletic,Wigan Athletic,1,0,3,0
+31,Fulham,Portsmouth,1,1,1,1
+31,Liverpool,Arsenal,4,1,3,0
+31,Manchester United,Blackburn Rovers,4,1,3,0
+31,Newcastle United,Manchester City,0,1,0,3
+31,Tottenham Hotspur,FC Reading,1,0,3,0
+31,FC Watford,Chelsea,0,1,0,3
+31,West Ham United,Middlesbrough,2,0,3,0
+32,Blackburn Rovers,Aston Villa,1,2,0,3
+32,Wigan Athletic,Bolton Wanderers,1,3,0,3
+32,Manchester City,Charlton Athletic,0,0,1,1
+32,Everton,Fulham,4,1,3,0
+32,FC Reading,Liverpool,1,2,0,3
+32,Portsmouth,Manchester United,2,1,3,0
+32,Sheffield United,Newcastle United,1,2,0,3
+32,Chelsea,Tottenham Hotspur,1,0,3,0
+32,Middlesbrough,FC Watford,4,1,3,0
+32,Arsenal,West Ham United,0,1,0,3
+33,Aston Villa,Wigan Athletic,1,1,1,1
+33,Bolton Wanderers,Everton,1,1,1,1
+33,Charlton Athletic,FC Reading,0,0,1,1
+33,Fulham,Manchester City,1,3,0,3
+33,Liverpool,Middlesbrough,2,0,3,0
+33,Manchester United,Sheffield United,2,0,3,0
+33,Newcastle United,Arsenal,0,0,1,1
+33,Tottenham Hotspur,Blackburn Rovers,1,1,1,1
+33,FC Watford,Portsmouth,4,2,3,0
+33,West Ham United,Chelsea,1,4,0,3
+34,Arsenal,Bolton Wanderers,2,1,3,0
+34,Blackburn Rovers,FC Watford,3,1,3,0
+34,Chelsea,Manchester United,0,0,1,1
+34,Everton,Charlton Athletic,2,1,3,0
+34,Manchester City,Liverpool,0,0,1,1
+34,Middlesbrough,Aston Villa,1,3,0,3
+34,Portsmouth,Newcastle United,2,1,3,0
+34,FC Reading,Fulham,1,0,3,0
+34,Sheffield United,West Ham United,3,0,3,0
+34,Wigan Athletic,Tottenham Hotspur,3,3,1,1
+35,Bolton Wanderers,FC Reading,1,3,0,3
+35,FC Watford,Manchester City,1,1,1,1
+35,Charlton Athletic,Sheffield United,1,1,1,1
+35,Aston Villa,Portsmouth,0,0,1,1
+35,Tottenham Hotspur,Arsenal,2,2,1,1
+35,West Ham United,Everton,1,0,3,0
+35,Fulham,Blackburn Rovers,1,1,1,1
+35,Liverpool,Wigan Athletic,2,0,3,0
+35,Manchester United,Middlesbrough,1,1,1,1
+35,Newcastle United,Chelsea,0,0,1,1
+36,Chelsea,Bolton Wanderers,2,2,1,1
+36,Sheffield United,FC Watford,1,0,3,0
+36,Manchester City,Aston Villa,0,2,0,3
+36,Arsenal,Fulham,3,1,3,0
+36,Portsmouth,Liverpool,2,1,3,0
+36,Everton,Manchester United,2,4,0,3
+36,Blackburn Rovers,Charlton Athletic,4,1,3,0
+36,Middlesbrough,Tottenham Hotspur,2,3,0,3
+36,FC Reading,Newcastle United,1,0,3,0
+36,Wigan Athletic,West Ham United,0,3,0,3
+37,Arsenal,Chelsea,1,1,1,1
+37,Aston Villa,Sheffield United,3,0,3,0
+37,Charlton Athletic,Tottenham Hotspur,0,2,0,3
+37,Everton,Portsmouth,3,0,3,0
+37,Fulham,Liverpool,1,0,3,0
+37,Manchester City,Manchester United,0,1,0,3
+37,Newcastle United,Blackburn Rovers,0,2,0,3
+37,FC Reading,FC Watford,0,2,0,3
+37,West Ham United,Bolton Wanderers,3,1,3,0
+37,Wigan Athletic,Middlesbrough,0,1,0,3
+38,Blackburn Rovers,FC Reading,3,3,1,1
+38,Bolton Wanderers,Aston Villa,2,2,1,1
+38,Chelsea,Everton,1,1,1,1
+38,Liverpool,Charlton Athletic,2,2,1,1
+38,Manchester United,West Ham United,0,1,0,3
+38,Middlesbrough,Fulham,3,1,3,0
+38,Portsmouth,Arsenal,0,0,1,1
+38,Sheffield United,Wigan Athletic,1,2,0,3
+38,Tottenham Hotspur,Manchester City,2,1,3,0
+38,FC Watford,Newcastle United,1,1,1,1

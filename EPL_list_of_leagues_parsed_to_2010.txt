@@ -1,0 +1,14 @@
+csv_data/EPL_1996_1997.csv
+csv_data/EPL_1997_1998.csv
+csv_data/EPL_1998_1999.csv
+csv_data/EPL_1999_2000.csv
+csv_data/EPL_2000_2001.csv
+csv_data/EPL_2001_2002.csv
+csv_data/EPL_2002_2003.csv
+csv_data/EPL_2003_2004.csv
+csv_data/EPL_2004_2005.csv
+csv_data/EPL_2005_2006.csv
+csv_data/EPL_2006_2007.csv
+csv_data/EPL_2007_2008.csv
+csv_data/EPL_2008_2009.csv
+csv_data/EPL_2009_2010.csv
