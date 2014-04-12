@@ -385,8 +385,10 @@ def tally_points_gd(dict_,team):
 	wins  = 0
 	draws = 0
 	loses = 0
+	total_points_per_match = [] 
 	for i in range(N_games):
 		if ( dict_['Home Team'][i] == team ):
+			# print dict_['Matchday'][i]
 			home_goals, away_goals = dict_['Goals Home'][i], dict_['Goals Away'][i]
 			points_match = determine_home_points(home_goals,away_goals)
 			points = points + points_match
@@ -394,8 +396,11 @@ def tally_points_gd(dict_,team):
 			goals_for += home_goals
 			goals_against -= away_goals
 			points_home += points_match
+			total_points_per_match.append(points)
+			
+
 			if ( points_match == 3):
-				wins += 1
+				wins +=  1
 			elif ( points_match == 1):
 				draws += 1
 			elif ( points_match == 0):
@@ -404,6 +409,7 @@ def tally_points_gd(dict_,team):
 				raise ValueError, "Not valid result obtained from parse"
 			# print 'Home ', dict_['Matchday'][i], points_match
 		elif ( dict_['Away Team'][i] == team ):
+			# print dict_['Matchday'][i]
 			home_goals, away_goals = dict_['Goals Home'][i], dict_['Goals Away'][i]
 			points_match = determine_away_points(home_goals,away_goals)
 			points = points + points_match
@@ -411,6 +417,8 @@ def tally_points_gd(dict_,team):
 			goals_for += away_goals
 			goals_against -= home_goals
 			points_away += points_match
+			total_points_per_match.append(points)
+
 			if ( points_match == 3):
 				wins += 1
 			elif ( points_match == 1):
@@ -422,7 +430,8 @@ def tally_points_gd(dict_,team):
 			
 			# print 'Away', dict_['Matchday'][i], points_match
 		else:			pass
-	return points,goal_difference,goals_for,abs(goals_against),points_home,points_away,wins,draws,loses
+	return points,goal_difference,goals_for,abs(goals_against),\
+		points_home,points_away,wins,draws,loses, total_points_per_match
 
 def print_league_table(dict_,dict_teams):
 	N_cats = 10
@@ -468,6 +477,14 @@ def print_league_table(dict_,dict_teams):
 				position_to_print += 1
 	print '-'*N_string_cols
 
+def get_all_EPL_leagues():
+	files = [ file1.strip() for file1 in (open('EPL_list_of_leagues_parsed.txt','r')).readlines() ]
+	return files
+
+# def get_ranking_based_on_points():
+
+# 	return 
+
 def get_league_table(print_bool,filename):
 	dict_ = parse_dict(filename)
 	teams = obtain_unique_elements(dict_['Home Team'])
@@ -475,24 +492,27 @@ def get_league_table(print_bool,filename):
 	# teams_ = ['Manchester United','Chelsea','Manchester City','Arsenal','Tottenham Hotspur','Blackburn Rovers']
 	point_totals     = []
 	goal_differences = []
-	goals_for = []
-	goals_against = []
-	points_away = []
-	points_home = []
+	goals_for        = []
+	goals_against    = []
+	points_away      = []
+	points_home      = []
 	wins = []; draws = []; loses = []
+	points_evolution = []
 	for team in teams:
 		# print team, "points = ", tally_points(dict_,team)
-		point_totals.append( tally_points_gd(dict_,team)[0] )
-		goal_differences.append( tally_points_gd(dict_,team)[1] )
-		goals_for.append( tally_points_gd(dict_,team)[2]  )
-		goals_against.append( tally_points_gd(dict_,team)[3]  )
-		points_home.append( tally_points_gd(dict_,team)[4]  )
-		points_away.append( tally_points_gd(dict_,team)[5]  )
+		point_totals.append(     tally_points_gd(  dict_,team)[0]  )
+		goal_differences.append( tally_points_gd(  dict_,team)[1]  )
+		goals_for.append(        tally_points_gd(  dict_,team)[2]  )
+		goals_against.append(    tally_points_gd(  dict_,team)[3]  )
+		points_home.append(      tally_points_gd(  dict_,team)[4]  )
+		points_away.append(      tally_points_gd(  dict_,team)[5]  )
+		#
 		# types of results
-		wins.append( tally_points_gd(dict_,team)[6]  )
-		draws.append( tally_points_gd(dict_,team)[7]  )
-		loses.append( tally_points_gd(dict_,team)[8]  )	
-		
+		#
+		wins.append(  tally_points_gd(  dict_,team)[6]  )
+		draws.append( tally_points_gd(  dict_,team)[7]  )
+		loses.append( tally_points_gd(  dict_,team)[8]  )	
+		points_evolution.append( tally_points_gd(  dict_,team)[9] )
 	# points,goal_difference,goals_for,goals_against,points_home,points_away
 	point_total_indeces  = index_rank_high_to_low(point_totals     )
 	goal_diff_indeces    = index_rank_high_to_low(goal_differences )
@@ -521,8 +541,8 @@ def get_league_table(print_bool,filename):
 				if GD2 == GD:
 					repeated_teams_by_GD[j].append(i)
 
-	mod_points = array([1.0*point for point in point_totals]);
-	maxpoints_modifier = 10.0*max(abs(array(goal_differences)))
+	mod_points           = array([1.0*point for point in point_totals]);
+	maxpoints_modifier   = 10.0*max(abs(array(goal_differences)))
 	maxpoints_modifier_2 = 100.0*max(abs(array(goals_for)))
 	# print maxpoints_modifier
 	for i,point in enumerate(unique_point_totals):
@@ -547,7 +567,7 @@ def get_league_table(print_bool,filename):
 				else:
 					mod_points[j] = mod_points[j] + 1.0*goal_differences[j]/maxpoints_modifier
 
-	mod_points = list(mod_points)
+	mod_points           = list(mod_points)
 	point_total_indeces  = index_rank_high_to_low( mod_points  )
 
 	fopen = open('logos/team_logo_def.csv','r')
@@ -564,7 +584,8 @@ def get_league_table(print_bool,filename):
 			'league position':position, 'goals for':goals_for[i], 
 			'goals against':goals_against[i], 'home points':points_home[i],
 			'away points':points_away[i],
-			'wins':wins[i],'draws':draws[i],'loses':loses[i]}
+			'wins':wins[i],'draws':draws[i],'loses':loses[i],
+			'points evolution':points_evolution[i]}
 		
 		for j,line in enumerate(lines_teams):
 			if ( line.find(team) != -1 ):

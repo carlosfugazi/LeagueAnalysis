@@ -12,7 +12,6 @@ def getting_gd_manu_figure():
 	getting_two_attributes_over_the_years(
 		'EPL_list_of_leagues_parsed.txt','Manchester United',attr,attr2)
 
-
 def circle_plot(labels,data,team,label):
 	import matplotlib
 	import numpy as np

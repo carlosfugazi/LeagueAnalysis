@@ -1,6 +1,14 @@
 # applications of reduced data
 execfile('league_table_parsing.py')
 
+# From git hub repo, initialization stuff
+# touch README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git remote add origin https://github.com/carlosfugazi/LeagueAnalysis.git
+# git push -u origin master
+
 # http://www.worldfootball.net/alle_spiele/ita-serie-a-2011-2012/
 # http://www.worldfootball.net/alle_spiele/esp-primera-division-2011-2012/
 # http://www.worldfootball.net/alle_spiele/fra-ligue-1/
@@ -25,6 +33,9 @@ execfile('league_table_parsing.py')
 # 		'wins':wins[i],'draws':draws[i],'loses':loses[i]}
 
 execfile('gallery_fr/bar_ex.py')
+
+def push_updates_to_github():
+	os.system('git push -u origin master')
 
 def plot_ar_logo(sublabel):
 	ax = gca()
