@@ -112,8 +112,13 @@ def analyze_file_name(filename):
 def test_matchday_raw_html_style():
 	matchday_raw_html_style('XLS_data/BL_raw_matchday_html_2010_2011.csv')	
 
+def get_2012_2013_new_format_matchday_raw_html_style():
+	matchday_raw_html_style('XLS_data/EPL_raw_matchday_html_2012_2013.csv',ioffset=1)	
 
-def matchday_raw_html_style(filename):	
+def get_2013_2014_new_format_matchday_raw_html_style():
+	matchday_raw_html_style('XLS_data/EPL_raw_matchday_html_2013_2014.csv',ioffset=1)	
+
+def matchday_raw_html_style(filename,ioffset=0):	
 	# England : http://www.worldfootball.net/alle_spiele/eng-premier-league-2011-2012/
 	# Spain   : http://www.worldfootball.net/alle_spiele/esp-primera-division-2011-2012/
 	"""
@@ -139,18 +144,21 @@ def matchday_raw_html_style(filename):
 	fopen = open('csv_data/{}_{}_{}.csv'.format(LEAGUE_ABBRV,YEAR1,YEAR2),'w')
 	fopen.write('{},{},{}-{}\n'.format(LEAGUE_NAME,COUNTRY,YEAR1,YEAR2))
 	
-	
+	# print ioffset
 	fopen.write('Matchday,Home Team,Away Team,Goals Home,Goals Away,Points Home,Points Away\n')
 	for line in lines:
 		if ( line.find('Round') != -1 ):
-			#print 'Matchday ', line.split('.')[0]
+			print 'Matchday ', line.split('.')[0]
 			current_match_day = int(line.split('.')[0])
-		if ( line.split(',')[0].find(':') != -1 ):
+		# print line.split(',')[0+ioffset]
+		if ( line.split(',')[0+ioffset].find(':') != -1 ):
 			elements = line.split(',')
-			result_str = elements[4]
+			# print elements
+			result_str = elements[4+ioffset]
 			home_goals = ((result_str.split(' (')[0]).split(':'))[0]
 			away_goals = ((result_str.split(' (')[0]).split(':'))[1]
-			fopen.write( '{},{},{},{},{},{},{}\n'.format(current_match_day, elements[1],elements[3],
+			fopen.write( '{},{},{},{},{},{},{}\n'.format(current_match_day, 
+				elements[1+ioffset],elements[3+ioffset],
 				home_goals,away_goals,\
 				determine_home_points(home_goals,away_goals),
 				determine_away_points(home_goals,away_goals) ) )

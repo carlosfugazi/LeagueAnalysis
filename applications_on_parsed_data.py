@@ -136,7 +136,36 @@ def plot_league_team_logo(league_logo_file,team_logo_file,axes1,axes2):
 		xticks([])
 		yticks([])
 
-def plot_my_logo(axes1):
+
+def take_off_right_and_top_axis_lines():
+	from mpl_toolkits.axes_grid.axislines import SubplotZero
+	ax = SubplotZero(gcf(),111)
+	gcf().add_subplot(ax)
+	ax = gca()
+	for direction in ['right','top']:
+		ax.axis[direction].set_visible(False)
+	ax = gca()
+	ax.minorticks_on()
+
+
+def take_off_right_and_top_axis_lines_after():
+	ax=gca()
+	ax.spines["right"].set_visible(False)
+	ax.spines["top"].set_visible(False)
+	# ax.minorticks_on()
+
+	## the original answer:
+	## see  http://old.nabble.com/Ticks-direction-td30107742.html
+	#for tick in ax.xaxis.majorTicks:
+	#  tick._apply_params(tickdir="out")
+
+	# the OP way (better):
+	ax.tick_params(axis='both', direction='out')
+	ax.get_xaxis().tick_bottom()   # remove unneeded ticks 
+	ax.get_yaxis().tick_left()
+ 
+ 
+def plot_my_logo(axes1,kwargs=dict(origin='lower',alpha=0.15)):
 	import Image
 	import numpy as np
 	import matplotlib.mlab as mlab
@@ -144,11 +173,11 @@ def plot_my_logo(axes1):
 	a = axes(axes1,frameon=False)
 	# team_mod, team_logo_file = find_team_logo_file(team)
 	im = Image.open('logo/drawing_final.png')
-	plt.imshow(im, origin='lower',alpha=0.15)
+	plt.imshow(im,**kwargs)
 	xticks([])
 	yticks([])
 
-def plot_team_logo(team,axes1):
+def plot_team_logo(team,axes1,kwargs=dict(origin='lower',alpha=0.15)):
 	def find_team_logo_file(team):
 		fopen = open('logos/team_logo_def.csv','r')
 		lines = [ line.strip() for line in fopen.readlines() ]
@@ -170,7 +199,7 @@ def plot_team_logo(team,axes1):
 	a = axes(axes1,frameon=False)
 	team_mod, team_logo_file = find_team_logo_file(team)
 	im = Image.open(team_logo_file)
-	plt.imshow(im, origin='lower',alpha=0.15)
+	plt.imshow(im,**kwargs )
 	xticks([])
 	yticks([])
 
