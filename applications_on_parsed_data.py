@@ -1,5 +1,10 @@
 # applications of reduced data
 execfile('league_table_parsing.py')
+import matplotlib.font_manager as fm
+fontname  = './fonts/Bradbury-Oblique.ttf'
+fontname2  = './fonts/NeoBulletin Italic.ttf' 
+prop_font = fm.FontProperties(fname=fontname2)
+
 
 # From git hub repo, initialization stuff
 # touch README.md
@@ -164,7 +169,7 @@ def take_off_right_and_top_axis_lines_after():
 	ax.get_xaxis().tick_bottom()   # remove unneeded ticks 
 	ax.get_yaxis().tick_left()
  
- 
+
 def plot_my_logo(axes1,kwargs=dict(origin='lower',alpha=0.15)):
 	import Image
 	import numpy as np
