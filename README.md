@@ -37,15 +37,17 @@
  	- dict_['Year1'] = int(YEARS.split('-')[0])
  	- dict_['Year2'] = int(YEARS.split('-')[1])
  	- dict_['N_games'] = len(dict_['Home Team'])
- 	- dict_['Matchday,Home Team,Away Team,Goals Home,Goals Away,Points Home,Points Away']
+ 	- Basic column structure of csv files: 
+ 		- 'Matchday,Home Team,Away Team,Goals Home,Goals Away,Points Home,Points Away']
 
 ## Teams dict 
 
 + Dict team (generated from league table data)
-	- dict_teams[team] = {'points':point_totals[i],
+	- Code sample of definition: 
+		`dict_teams[team] = {'points':point_totals[i],
  		'goal difference':goal_differences[i],
  		'league position':position, 'goals for':goals_for[i], 
  		'goals against':goals_against[i], 'home points':points_home[i],
  		'away points':points_away[i],
- 		'wins':wins[i],'draws':draws[i],'loses':loses[i]}
+ 		'wins':wins[i],'draws':draws[i],'loses':loses[i]}`
 
