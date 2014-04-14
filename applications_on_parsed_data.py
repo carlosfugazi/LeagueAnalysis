@@ -5,38 +5,6 @@ fontname  = './fonts/Bradbury-Oblique.ttf'
 fontname2  = './fonts/NeoBulletin Italic.ttf' 
 prop_font = fm.FontProperties(fname=fontname2,size=20.)
 
-
-# From git hub repo, initialization stuff
-# touch README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/carlosfugazi/LeagueAnalysis.git
-# git push -u origin master
-
-# http://www.worldfootball.net/alle_spiele/ita-serie-a-2011-2012/
-# http://www.worldfootball.net/alle_spiele/esp-primera-division-2011-2012/
-# http://www.worldfootball.net/alle_spiele/fra-ligue-1/
-# http://www.worldfootball.net/alle_spiele/bundesliga/
-
-o
-# League dict keys
-# 	dict_['League Name'] = LEAGUENAME
-# 	dict_['Country'] = COUNTRY
-# 	dict_['Years'] = YEARS
-# 	dict_['Year1'] = int(YEARS.split('-')[0])
-# 	dict_['Year2'] = int(YEARS.split('-')[1])
-# 	dict_['N_games'] = len(dict_['Home Team'])
-# 	dict_['Matchday,Home Team,Away Team,Goals Home,Goals Away,Points Home,Points Away']
-
-# Teams dict 
-# dict_teams[team] = {'points':point_totals[i],
-# 		'goal difference':goal_differences[i],
-# 		'league position':position, 'goals for':goals_for[i], 
-# 		'goals against':goals_against[i], 'home points':points_home[i],
-# 		'away points':points_away[i],
-# 		'wins':wins[i],'draws':draws[i],'loses':loses[i]}
-
 execfile('gallery_fr/bar_ex.py')
 
 def push_updates_to_github():
