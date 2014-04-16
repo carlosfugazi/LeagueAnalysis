@@ -635,6 +635,88 @@ def get_league_table(print_bool,filename,Matchdays_selected=None):
 	if ( print_bool == True ): print_league_table(dict_,dict_teams)
 	return dict_teams
 	
+def parse_football_data_csv_file():
+	filename = 'csv_detailed_stats/E0_2012_2013.csv'
+	fopen    = open(filename,'rb')
+	lines    = [ line.strip() for line  in fopen.readlines() ]
+	fopen.close()
+	headers  = (lines[0]).split(',')
+	print lines[0]
+	print headers
+	dict_    = {}
+	string_headers = ['Div','Date','HomeTeam','AwayTeam','Referee']
+	matchday = 1
+	dict_league = {}
+	teams, refs = [], []
+	for line in lines[1:]:
+		elements = line.split(',')
+		dict_['{}'.format(matchday)] = {}
+		# if len(elements) != len(headers): print "error" 
+		for element,header in zip(elements,headers): 
+			
+			if ( header not in string_headers ):
+				try:
+					dict_['{}'.format(matchday)][header] = eval(element)
+				except:
+					dict_['{}'.format(matchday)][header] = element
+			else:
+				dict_['{}'.format(matchday)][header]     = element
+
+			# if ( header.find('Referee') != -1): print header
+		teams.append( dict_['{}'.format(matchday)]['HomeTeam'] )
+		teams.append( dict_['{}'.format(matchday)]['AwayTeam'] )
+		# refs.append( dict_['{}'.format(matchday) ]['Referee'] )
+
+		matchday += 1
+	dict_league['league']          = {'teams':list(set(teams)),'Nteams':len(list(set(teams))),
+		'Nmatches':len(dict_.keys()), 'referees':list(set(refs)) }
+	dict_league['results']         = dict_
+	return dict_league
+
+def get_points_for_team_from_dict_fd(dict_,team):
+	points = 0
+	for key in dict_:
+		if ( dict_[key]['HomeTeam'] == team ):
+			points += determine_home_points(dict_[key]['FTHG'],dict_[key]['FTAG'] )
+		elif ( dict_[key]['AwayTeam'] == team ):
+			points += determine_away_points(dict_[key]['FTHG'],dict_[key]['FTAG'] )
+	print "team {} pts {}".format(team,points)
+
+def get_all_E0_files_from_fd():
+	import os
+	years = list(range(93,99+1))+list(range(0,14+1))
+	# print years
+	# english
+	codeleague = 'E1'
+	codedir    = 'Championship'
+	codeleague = 'E2'
+	codedir    = 'League1'
+	codeleague = 'E3'
+	codedir    = 'League2'
+	# Spain
+	codeleague = 'SP1'
+	codedir    = 'LaLiga'
+	# Germany
+	codeleague = 'D1'
+	codedir    = 'Bundesliga'
+	# Italy
+	codeleague = 'I1'
+	codedir    = 'SerieA'
+	# France
+	codeleague = 'F1'
+	codedir    = 'LigueUn'
+	# portugal
+	codeleague = 'P1'
+	codedir    = 'ligaport'
+	# 
+	try: 
+		os.mkdir('csv_detailed_stats/{}/'.format(codedir))
+	except:
+		pass
+
+	for i in range(len(years[:-1])):
+		os.system('wget http://football-data.co.uk/mmz4281/{:0>2}{:0>2}/{}.csv -O csv_detailed_stats/{}/{}_{:0>2}_{:0>2}.csv'.format(
+			years[i],years[i+1],codeleague,codedir,codeleague,years[i],years[i+1]) )
 
 # dict_ = get_league_table()
 # filename = 'EPL_2010_2011.csv'
