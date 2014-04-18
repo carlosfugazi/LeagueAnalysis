@@ -635,8 +635,8 @@ def get_league_table(print_bool,filename,Matchdays_selected=None):
 	if ( print_bool == True ): print_league_table(dict_,dict_teams)
 	return dict_teams
 	
-def parse_football_data_csv_file():
-	filename = 'csv_detailed_stats/E0_2012_2013.csv'
+def parse_football_data_csv_file(filename):
+	# filename = 'csv_detailed_stats/E0_2012_2013.csv'
 	fopen    = open(filename,'rb')
 	lines    = [ line.strip() for line  in fopen.readlines() ]
 	fopen.close()
@@ -675,12 +675,59 @@ def parse_football_data_csv_file():
 
 def get_points_for_team_from_dict_fd(dict_,team):
 	points = 0
-	for key in dict_:
-		if ( dict_[key]['HomeTeam'] == team ):
-			points += determine_home_points(dict_[key]['FTHG'],dict_[key]['FTAG'] )
-		elif ( dict_[key]['AwayTeam'] == team ):
-			points += determine_away_points(dict_[key]['FTHG'],dict_[key]['FTAG'] )
-	print "team {} pts {}".format(team,points)
+	for key in dict_['results']:
+		if ( dict_['results'][key]['HomeTeam'] == team ):
+			points += determine_home_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+		elif ( dict_['results'][key]['AwayTeam'] == team ):
+			points += determine_away_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+	# print "team {} pts {}".format(team,points)
+	return points
+
+def get_gd_for_team_from_dict_fd(dict_,team):
+	points = 0
+	for key in dict_['results']:
+		if ( dict_['results'][key]['HomeTeam'] == team ):
+			points += determine_home_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+		elif ( dict_['results'][key]['AwayTeam'] == team ):
+			points += determine_away_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+	# print "team {} pts {}".format(team,points)
+	return points
+
+def get_gd_gf_ga_for_team_from_dict_fd(dict_,team):
+	gd,ga,gf = 0,0,0
+	for key in dict_['results']:
+		if ( dict_['results'][key]['HomeTeam'] == team ):
+			gd += dict_['results'][key]['FTHG'] - dict_['results'][key]['FTAG']
+			gf += dict_['results'][key]['FTHG'] # dict_['results'][key]['FTAG']
+			ga += dict_['results'][key]['FTAG']
+		elif ( dict_['results'][key]['AwayTeam'] == team ):
+			gd += dict_['results'][key]['FTAG'] - dict_['results'][key]['FTHG']
+			gf += dict_['results'][key]['FTAG'] # dict_['results'][key]['FTAG']
+			ga += dict_['results'][key]['FTHG']
+
+	# print "team {} pts {}".format(team,points)
+	return gd,gf,ga
+
+# def get_ranking_based_on_points(point_totals,goal_differences,goals_for):	
+# 	point_total_indeces  = index_rank_high_to_low(point_totals     )
+# 	goal_diff_indeces    = index_rank_high_to_low(goal_differences )
+
+def get_points_for_all_teams(dict_,teams):
+	if ( teams == 'all'):
+		teams = dict_['league']['teams']
+	points,gds,gfs,gas = [], [], [], []
+	for team in teams:
+		points1     = get_points_for_team_from_dict_fd(dict_,team)
+		gd1,gf1,ga1 = get_gd_gf_ga_for_team_from_dict_fd(dict_,team)
+		
+		points.append(points1)
+		gds.append(gd1)
+		gfs.append(gf1)
+		gas.append(ga1)
+	# print gds, len(gds)
+	mods, indeces = get_ranking_based_on_points(points,gds,gfs)
+	for index1 in indeces:
+		print '{:15} {:3} {:3} {:3} {:3}'.format(teams[index1],gfs[index1],gds[index1],gas[index1],points[index1])
 
 def get_all_E0_files_from_fd():
 	import os
