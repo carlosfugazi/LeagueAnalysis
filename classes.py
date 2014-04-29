@@ -1,5 +1,23 @@
 execfile('applications_on_parsed_data.py')
 
+class League_detailed:
+	def __init__(self,filename):
+		dict_league      = parse_football_data_csv_file(filename )
+		self.dict_league = dict_league
+		self.filename    = filename
+		self.dict_teams, self.dict_league  = get_dict_teams_for_all_teams(dict_league)
+		self.Nteams      = len( self.dict_teams.keys() )
+		self.Matchdays   = 2*self.Nteams-2
+		self.Teams       = self.dict_teams.keys()
+		
+	def __str__(self):
+		self.print_league_table()
+		return ''
+	
+	def print_league_table(self,Matchdays_selected=None):
+		# get_league_table(True,self.filename,Matchdays_selected=Matchdays_selected)
+		print_league_table(self.dict_league,self.dict_teams)
+
 class League:
 	def __init__(self,filename):
 		dict_league = parse_dict( filename )
@@ -14,7 +32,6 @@ class League:
 		self.print_league_table()
 		return ''
 	
-
 	def print_league_table(self,Matchdays_selected=None):
 		get_league_table(True,self.filename,Matchdays_selected=Matchdays_selected)
 

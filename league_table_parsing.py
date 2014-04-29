@@ -641,8 +641,8 @@ def parse_football_data_csv_file(filename):
 	lines    = [ line.strip() for line  in fopen.readlines() ]
 	fopen.close()
 	headers  = (lines[0]).split(',')
-	print lines[0]
-	print headers
+	# print lines[0]
+	# print headers
 	dict_    = {}
 	string_headers = ['Div','Date','HomeTeam','AwayTeam','Referee']
 	matchday = 1
@@ -650,48 +650,77 @@ def parse_football_data_csv_file(filename):
 	teams, refs = [], []
 	for line in lines[1:]:
 		elements = line.split(',')
-		dict_['{}'.format(matchday)] = {}
-		# if len(elements) != len(headers): print "error" 
-		for element,header in zip(elements,headers): 
-			
-			if ( header not in string_headers ):
-				try:
-					dict_['{}'.format(matchday)][header] = eval(element)
-				except:
-					dict_['{}'.format(matchday)][header] = element
-			else:
-				dict_['{}'.format(matchday)][header]     = element
+		if ( elements != ['']*len(elements)):
+			nodata = True
 
-			# if ( header.find('Referee') != -1): print header
-		teams.append( dict_['{}'.format(matchday)]['HomeTeam'] )
-		teams.append( dict_['{}'.format(matchday)]['AwayTeam'] )
-		# refs.append( dict_['{}'.format(matchday) ]['Referee'] )
+			dict_['{}'.format(matchday)] = {}
+			# if len(elements) != len(headers): print "error" 
+			for element,header in zip(elements,headers): 
+				
+				if ( header not in string_headers ):
+					try:
+						dict_['{}'.format(matchday)][header] = eval(element)
+					except:
+						dict_['{}'.format(matchday)][header] = element
+				else:
+					dict_['{}'.format(matchday)][header]     = element.strip()
 
-		matchday += 1
+				# if ( header.find('Referee') != -1): print header
+			teams.append( dict_['{}'.format(matchday)]['HomeTeam']) 
+			teams.append( dict_['{}'.format(matchday)]['AwayTeam']) 
+			# refs.append( dict_['{}'.format(matchday) ]['Referee'] )
+
+			matchday += 1
 	dict_league['league']          = {'teams':list(set(teams)),'Nteams':len(list(set(teams))),
 		'Nmatches':len(dict_.keys()), 'referees':list(set(refs)) }
 	dict_league['results']         = dict_
+	dict_league['League Name']     = (filename.split('/'))[-2]
+	csvfile = ((os.path.split(filename))[-1])
+	year1 = int(csvfile.split('_')[1])
+	year2 = int(csvfile.split('_')[2].replace('.csv',''))
+	if ( year1 < 50):
+		year1 = year1+2000
+	else:
+		year1 = year1+1900
+	if ( year2 < 50):
+		year2 = year2+2000
+	else:
+		year2 = year2+1900
+
+	dict_league['Years']           = '{}-{}'.format(year1,year2)
 	return dict_league
 
 def get_points_for_team_from_dict_fd(dict_,team):
-	points = 0
+	points, hp, ap, Nmatches  = 0, 0, 0, 0
 	for key in dict_['results']:
 		if ( dict_['results'][key]['HomeTeam'] == team ):
-			points += determine_home_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+			hp1     = determine_home_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+			points += hp1
+			hp     += hp1
+			Nmatches += 1
 		elif ( dict_['results'][key]['AwayTeam'] == team ):
-			points += determine_away_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+			ap1     = determine_away_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+			points += ap1
+			ap     += ap1
+			Nmatches += 1
+			# points += determine_away_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
 	# print "team {} pts {}".format(team,points)
-	return points
+	return points,hp,ap,Nmatches
 
-def get_gd_for_team_from_dict_fd(dict_,team):
-	points = 0
+def get_w_l_d_for_team_from_dict_fd(dict_,team):
+	ws,ls,ds = 0, 0, 0
 	for key in dict_['results']:
 		if ( dict_['results'][key]['HomeTeam'] == team ):
-			points += determine_home_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
+			if ( dict_['results'][key]['FTHG'] >  dict_['results'][key]['FTAG'] ): ws += 1
+			if ( dict_['results'][key]['FTHG'] <  dict_['results'][key]['FTAG'] ): ls += 1
+			if ( dict_['results'][key]['FTHG'] == dict_['results'][key]['FTAG'] ): ds += 1
+
 		elif ( dict_['results'][key]['AwayTeam'] == team ):
-			points += determine_away_points(dict_['results'][key]['FTHG'],dict_['results'][key]['FTAG'] )
-	# print "team {} pts {}".format(team,points)
-	return points
+			if ( dict_['results'][key]['FTHG'] <  dict_['results'][key]['FTAG'] ): ws += 1
+			if ( dict_['results'][key]['FTHG'] >  dict_['results'][key]['FTAG'] ): ls += 1
+			if ( dict_['results'][key]['FTHG'] == dict_['results'][key]['FTAG'] ): ds += 1
+
+	return ws,ds,ls
 
 def get_gd_gf_ga_for_team_from_dict_fd(dict_,team):
 	gd,ga,gf = 0,0,0
@@ -712,22 +741,43 @@ def get_gd_gf_ga_for_team_from_dict_fd(dict_,team):
 # 	point_total_indeces  = index_rank_high_to_low(point_totals     )
 # 	goal_diff_indeces    = index_rank_high_to_low(goal_differences )
 
-def get_points_for_all_teams(dict_,teams):
+def get_dict_teams_for_all_teams(dict_,teams='all'):
 	if ( teams == 'all'):
 		teams = dict_['league']['teams']
 	points,gds,gfs,gas = [], [], [], []
+	dict_teams         = {}
 	for team in teams:
-		points1     = get_points_for_team_from_dict_fd(dict_,team)
-		gd1,gf1,ga1 = get_gd_gf_ga_for_team_from_dict_fd(dict_,team)
+		dict_teams[team] = {}
+		points1,hp1,ap1,Nmatches = get_points_for_team_from_dict_fd(dict_,team)
+		gd1,gf1,ga1              = get_gd_gf_ga_for_team_from_dict_fd(dict_,team)
+		ws,ls,ds                 = get_w_l_d_for_team_from_dict_fd(dict_,team)
 		
 		points.append(points1)
 		gds.append(gd1)
 		gfs.append(gf1)
 		gas.append(ga1)
+
+		dict_teams[team]['wins'], dict_teams[team]['draws'],\
+			dict_teams[team]['loses'], \
+			dict_teams[team]['goals for'],\
+			dict_teams[team]['goals against'],\
+			dict_teams[team]['goal difference'],\
+			dict_teams[team]['home points'],\
+			dict_teams[team]['away points'],\
+			dict_teams[team]['points']= ws,ds,ls,gf1,ga1,gd1,hp1,ap1,points1
+		dict_teams[team]['points evolution'] = [1]*Nmatches
 	# print gds, len(gds)
 	mods, indeces = get_ranking_based_on_points(points,gds,gfs)
-	for index1 in indeces:
-		print '{:15} {:3} {:3} {:3} {:3}'.format(teams[index1],gfs[index1],gds[index1],gas[index1],points[index1])
+	# for index1 in indeces:
+		# print '{:15} {:3} {:3} {:3} {:3}'.format(teams[index1],gfs[index1],gds[index1],gas[index1],points[index1])
+	for i,index1 in enumerate(indeces):
+		dict_teams[ teams[index1] ]['league position'] = i+1
+		if ( i+1 == 1 ):
+			dict_['Champion'] = teams[index1]
+
+	# print_league_table(dict_,dict_teams)
+	# dict_['dict_teams'] = dict_teams
+	return dict_teams, dict_
 
 def get_all_E0_files_from_fd():
 	import os
